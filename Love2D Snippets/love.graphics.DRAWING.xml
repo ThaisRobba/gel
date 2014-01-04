@@ -1,10 +1,16 @@
 <!--Drawing!-->
+
+
+
 		<snippet>
 		<tag>arc</tag>
 		<description>love.graphics.arc</description>
 		<text><![CDATA[love.graphics.arc(${1:mode}, ${2:x}, ${3:y}, ${4:radius}, ${5:angle1}, ${6:angle2}, ${7:segments} )
 		$0]]></text>
 		</snippet>
+		
+		
+		
 		<snippet>
 		<tag>circle</tag>
 		<description>love.graphics.circle</description>
@@ -17,6 +23,9 @@
 		<text><![CDATA[love.graphics.circle(${1:mode}, ${2:x}, ${3:y}, ${4:radius}, ${5:segments} )
 		$0]]></text>
 		</snippet>
+
+		
+		
 		<snippet>
 		<tag>clear</tag>
 		<description>love.graphics.clear</description>
@@ -29,6 +38,9 @@
 		<text><![CDATA[love.graphics.clear( )
 		$0]]></text>
 		</snippet>
+		
+		
+		
 		<snippet>
 		<tag>line</tag> 
 		<description>love.graphics.line 2 Points</description>
@@ -42,7 +54,6 @@
 		$0]]></text>
 		</snippet>
 		<snippet>
-
 		<!--Long Form-->
 		<tag>lline</tag> 
 		<description>love.graphics.line N Points</description>
@@ -56,12 +67,15 @@
 		$0]]></text>
 		</snippet>
 			
+			
+			
 		<snippet>
 		<tag>poi</tag> <!--Short form version-->
 		<description>love.graphics.point SF</description>
 		<text><![CDATA[love.graphics.point( ${1:x}, ${2:y} )
 		$0]]></text>
 		</snippet>
+		<snippet>
 		<tag>dot</tag> <!--Short form version-->
 		<description>love.graphics.point SF</description>
 		<text><![CDATA[love.graphics.point( ${1:x}, ${2:y} )
@@ -73,28 +87,37 @@
 		<text><![CDATA[love.graphics.point( ${1:x}, ${2:y} )
 		$0]]></text>
 		</snippet>
+		
+		
+		
 		<snippet>
 		<tag>polygon</tag> 
 		<description>love.graphics.polygon</description>
 		<text><![CDATA[love.graphics.polygon( ${1:mode}, ${2:vertices})
 		$0]]></text>
 		</snippet>
+		<snippet>
 		<tag>pol</tag> <!--Short form version-->
 		<description>love.graphics.polygon SF</description>
 		<text><![CDATA[love.graphics.polygon( ${1:mode}, ${2:vertices})
 		$0]]></text>
 		</snippet>
+		
+		
+		
 		<snippet>
 		<tag>rec</tag> <!--Short form version-->
 		<description>love.graphics.rectangle( mode, x, y, width, height ) SF</description>
 		<text><![CDATA[love.graphics.rectangle( ${1:mode}, ${2:x, ${3:y}, ${4:width}, ${5:height} )
 		$0]]></text>
 		</snippet>
+		<snippet>
 		<tag>rectangle</tag> 
 		<description>love.graphics.rectangle( mode, x, y, width, height )</description>
 		<text><![CDATA[love.graphics.rectangle( ${1:mode}, ${2:x, ${3:y}, ${4:width}, ${5:height} )
 		$0]]></text>
 		</snippet>
+		
 		
 		
 		<snippet>
@@ -103,58 +126,70 @@
 		<text><![CDATA[love.graphics.present( )
 		$0]]></text>
 		</snippet>
+		<snippet>
 		<tag>pre</tag> <!--Short form version--> 
 		<description>love.graphics.present( ) SF</description>
 		<text><![CDATA[love.graphics.present( )
 		$0]]></text>
 		</snippet>
-		<snippet>
 		
+		
+		
+		<snippet>		
 		<tag>pri</tag> <!--Short form version-->
 		<description>love.graphics.print(text, x, y)</description>
 		<text><![CDATA[love.graphics.print( ${1:text}, ${2:x}, ${3:y})
 		$0]]></text>
 		</snippet>
+		<snippet>
 		<tag>print</tag> 
 		<description>love.graphics.print(text, x, y)</description>
 		<text><![CDATA[love.graphics.print( ${1:text}, ${2:x}, ${3:y})
 		$0]]></text>
 		</snippet>
-		
 		<!--Long Form-->
+		<snippet>
 		<tag>lpri</tag> <!--Short form version-->
 		<description>love.graphics.print(text, x, y, r, sx, sy, ox, oy, kx, ky )</description>
 		<text><![CDATA[love.graphics.print( ${1:text}, ${2:x}, ${3:y}, ${4:orientation_in_radians}, ${5:x_scale}, ${6:y_scale}, ${7:x_offset}, ${8:y_offset}, {9:x_shearing}, {10: y_shearing})
 		$0]]></text>
 		</snippet>
+		<snippet>
 		<tag>lprint</tag> 
 		<description>love.graphics.print(text, x, y, r, sx, sy, ox, oy, kx, ky )</description>
 		<text><![CDATA[love.graphics.print( ${1:text}, ${2:x}, ${3:y}, ${4:orientation_in_radians}, ${5:x_scale}, ${6:y_scale}, ${7:x_offset}, ${8:y_offset}, {9:x_shearing}, {10: y_shearing})
 		$0]]></text>
 		</snippet>
 
+
+
+		<snippet>
 		<tag>prif</tag> <!--Short form version-->
 		<description>love.graphics.print(text, x, y, limit, align)</description>
 		<text><![CDATA[love.graphics.printf( ${1:text}, ${2:x}, ${3:y}, ${4:x_limit}, ${5:align})
 		$0]]></text>
 		</snippet>
+		<snippet>
 		<tag>print</tag> 
 		<description>love.graphics.printf(text, x, y)</description>
 		<text><![CDATA[love.graphics.printf( ${1:text}, ${2:x}, ${3:y}, ${4:x_limit}, ${5:align})
 		$0]]></text>
 		</snippet>
-		
 		<!--Long Form-->
+		<snippet>
 		<tag>lprif</tag> <!--Short form version-->
 		<description>love.graphics.printf(text, x, y, limit, align, r, sx, sy, ox, oy, kx, ky )</description>
 		<text><![CDATA[love.graphics.printf( ${1:text}, ${2:x}, ${3:y}, ${4:x_limit}, ${5:align}, ${6:orientation_in_radians}, ${7:x_scale}, ${8:y_scale}, ${9:x_offset}, ${10:y_offset}, {11:x_shearing}, {12: y_shearing})
 		$0]]></text>
 		</snippet>
+		<snippet>
 		<tag>lprintf</tag> 
 		<description>love.graphics.printf(text, x, y, limit, align, r, sx, sy, ox, oy, kx, ky )</description>
 		<text><![CDATA[love.graphics.printf( ${1:text}, ${2:x}, ${3:y}, ${4:x_limit}, ${5:align}, ${6:orientation_in_radians}, ${7:x_scale}, ${8:y_scale}, ${9:x_offset}, ${10:y_offset}, {11:x_shearing}, {12: y_shearing})
 		$0]]></text>
 		</snippet>
+
+
 
 		<snippet>
 		<tag>dra</tag> <!--Short form version-->
@@ -162,12 +197,12 @@
 		<text><![CDATA[love.graphics.print( ${1:drawable}, ${2:x}, ${3:y})
 		$0]]></text>
 		</snippet>
+		<snippet>
 		<tag>draw</tag> 
 		<description>love.graphics.print(drawable, x, y)</description>
 		<text><![CDATA[love.graphics.print( ${1:drawable}, ${2:x}, ${3:y})
 		$0]]></text>
 		</snippet>
-		
 		<!--Long Form-->
 		<tag>ldra</tag> <!--Short form version-->
 		<description>love.graphics.draw( drawable, x, y, r, sx, sy, ox, oy, kx, ky )</description>
@@ -179,5 +214,7 @@
 		<text><![CDATA[love.graphics.draw( ${1:drawable}, ${2:x}, ${3:y}, ${4:orientation_in_radians}, ${5:x_scale}, ${6:y_scale}, ${7:x_offset}, ${8:y_offset}, {9:x_shearing}, {10: y_shearing})
 		$0]]></text>
 		</snippet>
+			
+			
 			
 <!--End of Drawing!-->
