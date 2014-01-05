@@ -1,0 +1,331 @@
+<snippet>
+<tag>padax</tag> <!--Short form version-->
+<description>love.gamepadaxis(joystick, axis)</description>
+<text><![CDATA[function love.gamepadaxis(joystick, axis)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>padaxis</tag> <!--Short form version-->
+<description>love.gamepadaxis(joystick, axis)</description>
+<text><![CDATA[function love.gamepadaxis(joystick, axis)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>gamepadaxis</tag> 
+<description>love.gamepadaxis(joystick, axis)</description>
+<text><![CDATA[function love.gamepadaxis(joystick, axis)
+	$0
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>joyax</tag> <!--Short form version-->
+<description>love.joystickaxis(joystick, axis, value)</description>
+<text><![CDATA[function love.joystickaxis(joystick, axis, value)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>joyaxis</tag> <!--Short form version-->
+<description>love.joystickaxis(joystick, axis, value)</description>
+<text><![CDATA[function love.joystickaxis(joystick, axis, value)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>joysticaxis</tag> 
+<description>love.joystickaxis(joystick, axis, value)</description>
+<text><![CDATA[function love.joystickaxis(joystick, axis, value)
+	$0
+end]]></text>
+</snippet>
+
+
+<snippet>
+<tag>padpre</tag> <!--Short form version-->
+<description>love.gamepadpressed(joystick, button)</description>
+<text><![CDATA[function love.gamepadpressed(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>padpress</tag> <!--Short form version-->
+<description>love.gamepadpressed(joystick, button)</description>
+<text><![CDATA[function love.gamepadpressed(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>padpressed</tag> <!--Short form version-->
+<description>love.gamepadpressed(joystick, button)</description>
+<text><![CDATA[function love.gamepadpressed(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>gamepadpressed</tag> 
+<description>love.gamepadpressed(joystick, button)</description>
+<text><![CDATA[function love.gamepadpressed(joystick, button)
+	$0
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>padrel</tag> <!--Short form version-->
+<description>love.gamepadreleased(joystick, button)</description>
+<text><![CDATA[function love.gamepadreleased(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>padreleased</tag> <!--Short form version-->
+<description>love.gamepadreleased(joystick, button)</description>
+<text><![CDATA[function love.gamepadreleased(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>padrelease</tag> <!--Short form version-->
+<description>love.gamepadreleased(joystick, button)</description>
+<text><![CDATA[function love.gamepadreleased(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>gamepadreleased</tag> 
+<description>love.gamepadreleased(joystick, button)</description>
+<text><![CDATA[function love.gamepadreleased(joystick, button)
+	$0
+end]]></text>
+</snippet>
+
+
+
+
+<snippet>
+<tag>joypre</tag> <!--Short form version-->
+<description>love.joystickpressed(joystick, button)</description>
+<text><![CDATA[function love.joystickpressed(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>joypress</tag> <!--Short form version-->
+<description>love.joystickpressed(joystick, button)</description>
+<text><![CDATA[function love.joystickpressed(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>joypressed</tag> <!--Short form version-->
+<description>love.joystickpressed(joystick, button)</description>
+<text><![CDATA[function love.joystickpressed(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>joystickpressed</tag> 
+<description>love.joystickpressed(joystick, button)</description>
+<text><![CDATA[function love.joystickpressed(joystick, button)
+	$0
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>joyrel</tag> <!--Short form version-->
+<description>love.joystickpadreleased(joystick, button)</description>
+<text><![CDATA[function love.joystickpadreleased(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>joyreleased</tag> <!--Short form version-->
+<description>love.joystickpadreleased(joystick, button)</description>
+<text><![CDATA[function love.joystickpadreleased(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>joyrelease</tag> <!--Short form version-->
+<description>love.joystickpadreleased(joystick, button)</description>
+<text><![CDATA[function love.joystickpadreleased(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>joystickpadreleased</tag> 
+<description>love.joystickpadreleased(joystick, button)</description>
+<text><![CDATA[function love.joystickpadreleased(joystick, button)
+	$0
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>joyadd</tag> <!--Short form version-->
+<description>love.joystickadded(joystick)</description>
+<text><![CDATA[function love.joystickadded(joystick)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>joyadded</tag> <!--Short form version-->
+<description>love.joystickadded(joystick)</description>
+<text><![CDATA[function love.joystickadded(joystick)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>joystickadd</tag> <!--Short form version-->
+<description>love.joystickadded(joystick)</description>
+<text><![CDATA[function love.joystickadded(joystick)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>joystickadded</tag>
+<description>love.joystickadded(joystick)</description>
+<text><![CDATA[function love.joystickadded(joystick)
+	$0
+end]]></text>
+</snippet>
+
+
+<snippet>
+<tag>joyrm</tag> <!--Short form version-->
+<description>love.joystickremoved(joystick)</description>
+<text><![CDATA[function love.joystickremoved(joystick)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>joyrem</tag> <!--Short form version-->
+<description>love.joystickremoved(joystick)</description>
+<text><![CDATA[function love.joystickremoved(joystick)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>joyremoved</tag> <!--Short form version-->
+<description>love.joystickremoved(joystick)</description>
+<text><![CDATA[function love.joystickremoved(joystick)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>joystickrm</tag> <!--Short form version-->
+<description>love.joystickremoved(joystick)</description>
+<text><![CDATA[function love.joystickremoved(joystick)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>joystickrem</tag>
+<description>love.joystickremoved(joystick)</description>
+<text><![CDATA[function love.joystickremoved(joystick)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>joystickremoved</tag>
+<description>love.joystickremoved(joystick)</description>
+<text><![CDATA[function love.joystickremoved(joystick)
+	$0
+end]]></text>
+</snippet>
+
+
+<snippet>
+<tag>joyhat</tag> <!--Short form version-->
+<description>love.joystickhat(joystick, hat, direction)</description>
+<text><![CDATA[function love.joystickhat( joystick, hat, direction )
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>joystickhat</tag>
+<description>love.joystickhat(joystick, hat, direction)</description>
+<text><![CDATA[function love.joystickhat( joystick, hat, direction )
+	$0
+end]]></text>
+</snippet>
+
+
+<snippet>
+<tag>gjoycou</tag>
+<description>love.joystic.getJoystickCount()</description>
+<text><![CDATA[love.joystic.getJoystickCount()
+$0]]></text>
+</snippet>
+<snippet>
+<tag>gjoystickcou</tag>
+<description>love.joystic.getJoystickCount()</description>
+<text><![CDATA[love.joystic.getJoystickCount()
+$0]]></text>
+</snippet>
+<snippet>
+<tag>gjoystickcount</tag>
+<description>love.joystic.getJoystickCount()</description>
+<text><![CDATA[love.joystic.getJoystickCount()
+$0]]></text>
+</snippet>
+<snippet>
+<tag>gjoycount</tag>
+<description>love.joystic.getJoystickCount()</description>
+<text><![CDATA[love.joystic.getJoystickCount()
+$0]]></text>
+</snippet>
+
+
+<snippet>
+<tag>gjoystick</tag>
+<description>love.joystic.getJoystick()</description>
+<text><![CDATA[love.joystic.getJoystick()
+$0]]></text>
+</snippet>
+<snippet>
+<tag>gjoy</tag>
+<description>love.joystic.getJoystick()</description>
+<text><![CDATA[love.joystic.getJoystick()
+$0]]></text>
+</snippet>
+
+
+
+<snippet>
+<tag>spadmap</tag> <!--Short form version-->
+<description>love.joystic.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)</description>
+<text><![CDATA[love.joystic.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)
+$0]]></text>
+</snippet>
+<snippet>
+<tag>sgamepadmap</tag> <!--Short form version-->
+<description>love.joystic.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)</description>
+<text><![CDATA[love.joystic.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)
+$0]]></text>
+</snippet>
+<snippet>
+<tag>spadmapping</tag> <!--Short form version-->
+<description>love.joystic.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)</description>
+<text><![CDATA[love.joystic.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)
+$0]]></text>
+</snippet>
+<snippet>
+<tag>sgamepadmapping</tag> 
+<description>love.joystic.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)</description>
+<text><![CDATA[love.joystic.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)
+$0]]></text>
+</snippet>
+<snippet>
+<tag>sjoymapping</tag> <!--Short form version-->
+<description>love.joystic.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)</description>
+<text><![CDATA[love.joystic.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)
+$0]]></text>
+</snippet>
+<snippet>
+<tag>sjoymap</tag> <!--Short form version-->
+<description>love.joystic.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)</description>
+<text><![CDATA[love.joystic.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)
+$0]]></text>
+</snippet>

@@ -1,0 +1,50 @@
+<snippet>
+<tag>gdim</tag> <!--Short form version-->
+<description>love.graphics.getDimensions()</description>
+<text><![CDATA[love.graphics.getDimensions()
+$0]]></text>
+</snippet>
+<snippet>
+<tag>gdimensions</tag>
+<description>love.graphics.getDimensions()</description>
+<text><![CDATA[love.graphics.getDimensions()
+$0]]></text>
+</snippet>
+
+<snippet>
+<tag>gh</tag> <!--Short form version-->
+<description>love.graphics.getHeight()</description>
+<text><![CDATA[love.graphics.getHeight()
+$0]]></text>
+</snippet>
+<snippet>
+<tag>ghei</tag> <!--Short form version-->
+<description>love.graphics.getHeight()</description>
+<text><![CDATA[love.graphics.getHeight()
+$0]]></text>
+</snippet>
+<snippet>
+<tag>gheight</tag>
+<description>love.graphics.getHeight()</description>
+<text><![CDATA[love.graphics.getHeight()
+$0]]></text>
+</snippet>
+
+<snippet>
+<tag>gw</tag> <!--Short form version-->
+<description>love.graphics.getWidth()</description>
+<text><![CDATA[love.graphics.getWidth()
+$0]]></text>
+</snippet>
+<snippet>
+<tag>gwid</tag> <!--Short form version-->
+<description>love.graphics.getWidth()</description>
+<text><![CDATA[love.graphics.getWidth()
+$0]]></text>
+</snippet>
+<snippet>
+<tag>gwidth</tag>
+<description>love.graphics.getWidth()</description>
+<text><![CDATA[love.graphics.getWidth()
+$0]]></text>
+</snippet>

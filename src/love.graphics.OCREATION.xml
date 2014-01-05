@@ -1,0 +1,184 @@
+<snippet>
+<tag>ncan</tag> <!--Short form version-->
+<description>love.graphics.newCanvas</description>
+<text><![CDATA[love.graphics.newCanvas()
+$0]]></text>
+</snippet>
+<snippet>
+<tag>ncanvas</tag>
+<description>love.graphics.newCanvas</description>
+<text><![CDATA[love.graphics.newCanvas()
+$0]]></text>
+</snippet>
+<snippet>
+<tag>lncan</tag> <!--Short form version-->
+<description>love.graphics.newCanvas</description>
+<text><![CDATA[love.graphics.newCanvas(${1:width}, ${2:height}, ${3:texture_type})
+$0]]></text>
+</snippet>
+<snippet>
+<tag>lncanvas</tag>
+<description>love.graphics.newCanvas</description>
+<text><![CDATA[love.graphics.newCanvas(${1:width}, ${2:height}, ${3:texture_type})
+$0]]></text>
+</snippet>
+
+<snippet>
+<tag>nfon</tag> <!--Short form version-->
+<description>love.graphics.newFont(data, size)</description>
+<text><![CDATA[love.graphics.newFont(${1:data}, ${2:size})
+$0]]></text>
+</snippet>
+<snippet>
+<tag>nfont</tag>
+<description>love.graphics.newFont(data, size)</description>
+<text><![CDATA[love.graphics.newFont(${1:data}, ${2:size})
+$0]]></text>
+</snippet>
+
+<snippet>
+<tag>sfon</tag> <!--Short form version-->
+<description>love.graphics.setFont(font)</description>
+<text><![CDATA[love.graphics.setFont(${1:font})
+$0]]></text>
+</snippet>
+<snippet>
+<tag>sfont</tag>
+<description>love.graphics.setFont(font)</description>
+<text><![CDATA[love.graphics.setFont(${1:font})
+$0]]></text>
+</snippet>
+
+<snippet>
+<tag>nima</tag> <!--Short form version-->
+<description>love.graphics.newImage(data)</description>
+<text><![CDATA[love.graphics.newImage(${1:data})
+$0]]></text>
+</snippet>
+<snippet>
+<tag>nimg</tag> <!--Short form version-->
+<description>love.graphics.newImage(data)</description>
+<text><![CDATA[love.graphics.newImage(${1:data})
+$0]]></text>
+</snippet>
+<snippet>
+<tag>nimage</tag> 
+<description>love.graphics.newImage(data)</description>
+<text><![CDATA[love.graphics.newImage(${1:data})
+$0]]></text>
+</snippet>
+
+<snippet>
+<tag>nimf</tag> <!--Short form version-->
+<description>love.graphics.newImageFont(data, glyphs)</description>
+<text><![CDATA[love.graphics.newImageFont(${1:data, ${2:glyphs}})
+$0]]></text>
+</snippet>
+<snippet>
+<tag>nimgfont</tag> <!--Short form version-->
+<description>love.graphics.newImageFont(data, glyphs)</description>
+<text><![CDATA[love.graphics.newImageFont(${1:data, ${2:glyphs}})
+$0]]></text>
+</snippet>
+<snippet>
+<tag>nimgfon</tag> <!--Short form version-->
+<description>love.graphics.newImageFont(data, glyphs)</description>
+<text><![CDATA[love.graphics.newImageFont(${1:data, ${2:glyphs}})
+$0]]></text>
+</snippet>
+<snippet>
+<tag>nimagefont</tag> 
+<description>love.graphics.newImageFont(data, glyphs)</description>
+<text><![CDATA[love.graphics.newImageFont(${1:data, ${2:glyphs}})
+$0]]></text>
+</snippet>
+
+<snippet>
+<tag>nmsh</tag> <!--Short form version-->
+<description>love.graphics.newMesh(vertices, image, mode)</description>
+<text><![CDATA[love.graphics.newMesh(${1:vertices}, ${2:image}, ${3:mode})
+$0]]></text>
+</snippet>
+<snippet>
+<tag>nmes</tag> <!--Short form version-->
+<description>love.graphics.newMesh(vertices, image, mode)</description>
+<text><![CDATA[love.graphics.newMesh(${1:vertices}, ${2:image}, ${3:mode})
+$0]]></text>
+</snippet>
+<snippet>
+<tag>nmesh</tag>
+<description>love.graphics.newMesh(vertices, image, mode)</description>
+<text><![CDATA[love.graphics.newMesh(${1:vertices}, ${2:image}, ${3:mode})
+$0]]></text>
+</snippet>
+
+<snippet>
+<tag>npar</tag> <!--Short form version-->
+<description>love.graphics.newParticleSystem(image, buffer)</description>
+<text><![CDATA[love.graphics.newParticleSystem(${1:image}, ${2:max_number_of_particles})
+$0]]></text>
+</snippet>
+<snippet>
+<tag>nparticles</tag>
+<description>love.graphics.newParticleSystem(image, buffer)</description>
+<text><![CDATA[love.graphics.newParticleSystem(${1:image}, ${2:max_number_of_particles})
+$0]]></text>
+</snippet>
+<snippet>
+<tag>nparticle</tag>
+<description>love.graphics.newParticleSystem(image, buffer)</description>
+<text><![CDATA[love.graphics.newParticleSystem(${1:image}, ${2:max_number_of_particles})
+$0]]></text>
+</snippet>
+
+<snippet>
+<tag>nqua</tag> <!--Short form version-->
+<description>love.graphics.newQuad(x, y, width, height, sw, sh)</description>
+<text><![CDATA[love.graphics.newQuad(${1:x}, ${2:y}, ${3:width}, ${4:height}, ${5:width_of_the_reference}, ${6:height_of_the_reference})
+$0]]></text>
+</snippet>
+<snippet>
+<tag>nquad</tag>
+<description>love.graphics.newQuad(x, y, width, height, sw, sh)</description>
+<text><![CDATA[love.graphics.newQuad(${1:x}, ${2:y}, ${3:width}, ${4:height}, ${5:width_of_the_reference}, ${6:height_of_the_reference})
+$0]]></text>
+</snippet>
+
+<snippet>
+<tag>nscr</tag> <!--Short form version-->
+<description>love.graphics.newScreenshot(copyAlpha)</description>
+<text><![CDATA[love.graphics.newScreenshot(${1:copyAlpha_boolean})
+$0]]></text>
+</snippet>
+<snippet>
+<tag>nscreenshot</tag>
+<description>love.graphics.newScreenshot(copyAlpha)</description>
+<text><![CDATA[love.graphics.newScreenshot(${1:copyAlpha_boolean})
+$0]]></text>
+</snippet>
+
+<snippet>
+<tag>nsha</tag> <!--Short form version-->
+<description>love.graphics.newShader(pixelcode, vertexcode)</description>
+<text><![CDATA[love.graphics.newShader(${1:pixel_data},${2:vertex_data})
+$0]]></text>
+</snippet>
+<snippet>
+<tag>nshader</tag>
+<description>love.graphics.newShader(pixelcode, vertexcode)</description>
+<text><![CDATA[love.graphics.newShader(${1:pixel_data},${2:vertex_data})
+$0]]></text>
+</snippet>
+
+<snippet>
+<tag>nspr</tag> <!--Short form version-->
+<description>love.graphics.newSpriteBatch(image, size, usagehint)</description>
+<text><![CDATA[love.graphics.newSpriteBatch(${1:image}, ${2:max_number_of_sprites}, ${3:usage_hint})
+$0]]></text>
+</snippet>
+<snippet>
+<tag>nsprite</tag>
+<description>love.graphics.newSpriteBatch(image, size, usagehint)</description>
+<text><![CDATA[love.graphics.newSpriteBatch(${1:image}, ${2:max_number_of_sprites}, ${3:usage_hint})
+$0]]></text>
+</snippet>

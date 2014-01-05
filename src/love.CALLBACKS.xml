@@ -1,0 +1,302 @@
+<snippet>
+<tag>_upd</tag> <!--Short form version-->
+<description>function love.update()</description>
+<text><![CDATA[function love.update()
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_update</tag> 
+<description>function love.update()</description>
+<text><![CDATA[function love.update()
+	$1
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>_loa</tag> <!--Short form version-->
+<description>function love.load()</description>
+<text><![CDATA[function love.load()
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_load</tag> 
+<description>function love.load()</description>
+<text><![CDATA[function love.load()
+	$1
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>_dra</tag> <!--Short form version-->
+<description>function love.draw()</description>
+<text><![CDATA[function love.draw()
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_draw</tag> 
+<description>function love.draw()</description>
+<text><![CDATA[function love.draw()
+	$1
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>_err</tag> <!--Short form version-->
+<description>function love.errhand(msg)</description>
+<text><![CDATA[function love.errhand(msg)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_errhand</tag> 
+<description>function love.errhand(msg)</description>
+<text><![CDATA[function love.errhand(msg)
+	$1
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>_f</tag> <!--Short form version-->
+<description>function love.focus(f)</description>
+<text><![CDATA[function love.focus(f)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_foc</tag> <!--Short form version-->
+<description>function love.focus(f)</description>
+<text><![CDATA[function love.focus(f)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_focus</tag> 
+<description>function love.focus(f)</description>
+<text><![CDATA[function love.focus(f)
+	$1
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>_keypre</tag> <!--Short form version-->
+<description>function love.keypressed(key)</description>
+<text><![CDATA[function love.keypressed(key)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_keypressed</tag> 
+<description>function love.keypressed(key)</description>
+<text><![CDATA[function love.keypressed(key)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_keyprer</tag> <!--Short form version-->
+<description>function love.keypressed(key, isrepeat)</description>
+<text><![CDATA[function love.keypressed(key, isrepeat)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_keypressedrepeat</tag>
+<description>function love.keypressed(key, isrepeat)</description>
+<text><![CDATA[function love.keypressed(key, isrepeat)
+	$1
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>_keyrel</tag> <!--Short form version-->
+<description>function love.keyreleased(key)</description>
+<text><![CDATA[function love.keyreleased(key)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_keyreleased</tag> 
+<description>function love.keyreleased(key)</description>
+<text><![CDATA[function love.keyreleased(key)
+	$1
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>_mf</tag> <!--Short form version-->
+<description>function love.mousefocus(f)</description>
+<text><![CDATA[function love.mousefocus(f)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_mfoc</tag> <!--Short form version-->
+<description>function love.mousefocus(f)</description>
+<text><![CDATA[function love.mousefocus(f)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_mousefocus</tag> 
+<description>function love.mousefocus(f)</description>
+<text><![CDATA[function love.mousefocus(f)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_mousef</tag> <!--Short form version-->
+<description>function love.mousefocus(f)</description>
+<text><![CDATA[function love.mousefocus(f)
+	$1
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>_mrel</tag> <!--Short form version-->
+<description>function love.mousereleased(x, y, button)</description>
+<text><![CDATA[function love.mousereleased(x, y, button)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_mreleased</tag> <!--Short form version-->
+<description>function love.mousereleased(x, y, button)</description>
+<text><![CDATA[function love.mousereleased(x, y, button)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_mousereleased</tag> 
+<description>function love.mousereleased(x, y, button)</description>
+<text><![CDATA[function love.mousereleased(x, y, button)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_mouserel</tag> <!--Short form version-->
+<description>function love.mousereleased(x, y, button)</description>
+<text><![CDATA[function love.mousereleased(x, y, button)
+	$1
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>_mpre</tag> <!--Short form version-->
+<description>function love.mousepressed(x, y, button)</description>
+<text><![CDATA[function love.mousepressed(x, y, button)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_mpressed</tag> <!--Short form version-->
+<description>function love.mousepressed(x, y, button)</description>
+<text><![CDATA[function love.mousepressed(x, y, button)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_mousepressed</tag> 
+<description>function love.mousepressed(x, y, button)</description>
+<text><![CDATA[function love.mousepressed(x, y, button)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_mousepre</tag> <!--Short form version-->
+<description>function love.mousepressed(x, y, button)</description>
+<text><![CDATA[function love.mousepressed(x, y, button)
+	$1
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>_qui</tag> <!--Short form version-->
+<description>love.quit()</description>
+<text><![CDATA[function love.quit()
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_quit</tag>
+<description>love.quit()</description>
+<text><![CDATA[function love.quit()
+	$1
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>_res</tag> <!--Short form version-->
+<description>love.resize(w, h)</description>
+<text><![CDATA[function love.resize(w, h)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_resize</tag>
+<description>love.resize(w, h)</description>
+<text><![CDATA[function love.resize(w, h)
+	$1
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>_run</tag>
+<description>love.run()</description>
+<text><![CDATA[function love.run()
+	$1
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>_tex</tag> <!--Short form version-->
+<description>love.textinput(text)</description>
+<text><![CDATA[function love.textinput(text)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_text</tag> <!--Short form version-->
+<description>love.textinput(text)</description>
+<text><![CDATA[function love.textinput(text)
+	$1
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>_thr</tag> <!--Short form version-->
+<description>love.threaderror(thread, errorstr)</description>
+<text><![CDATA[love.threaderror(thread, errorstr)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_terr</tag> <!--Short form version-->
+<description>love.threaderror(thread, errorstr)</description>
+<text><![CDATA[love.threaderror(thread, errorstr)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_threaderror</tag>
+<description>love.threaderror(thread, errorstr)</description>
+<text><![CDATA[love.threaderror(thread, errorstr)
+	$1
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>_vis</tag> <!--Short form version-->
+<description>love.visible(v)</description>
+<text><![CDATA[love.visible(v)
+	$1
+end]]></text>
+</snippet>
+<snippet>
+<tag>_visible</tag>
+<description>love.visible(v)</description>
+<text><![CDATA[love.visible(v)
+	$1
+end]]></text>
+</snippet>
