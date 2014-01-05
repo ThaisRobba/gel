@@ -1,5 +1,12 @@
 <snippet>
-<tag>padax</tag> <!--Short form version-->
+<tag>padaxi</tag> <!--Short form version-->
+<description>love.gamepadaxis(joystick, axis)</description>
+<text><![CDATA[function love.gamepadaxis(joystick, axis)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>gamaxi</tag> <!--Short form version-->
 <description>love.gamepadaxis(joystick, axis)</description>
 <text><![CDATA[function love.gamepadaxis(joystick, axis)
 	$0
@@ -7,6 +14,13 @@ end]]></text>
 </snippet>
 <snippet>
 <tag>padaxis</tag> <!--Short form version-->
+<description>love.gamepadaxis(joystick, axis)</description>
+<text><![CDATA[function love.gamepadaxis(joystick, axis)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>gamaxis</tag> <!--Short form version-->
 <description>love.gamepadaxis(joystick, axis)</description>
 <text><![CDATA[function love.gamepadaxis(joystick, axis)
 	$0
@@ -21,7 +35,7 @@ end]]></text>
 </snippet>
 
 <snippet>
-<tag>joyax</tag> <!--Short form version-->
+<tag>joyaxi</tag> <!--Short form version-->
 <description>love.joystickaxis(joystick, axis, value)</description>
 <text><![CDATA[function love.joystickaxis(joystick, axis, value)
 	$0
@@ -51,6 +65,13 @@ end]]></text>
 end]]></text>
 </snippet>
 <snippet>
+<tag>gampre</tag> <!--Short form version-->
+<description>love.gamepadpressed(joystick, button)</description>
+<text><![CDATA[function love.gamepadpressed(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
 <tag>padpress</tag> <!--Short form version-->
 <description>love.gamepadpressed(joystick, button)</description>
 <text><![CDATA[function love.gamepadpressed(joystick, button)
@@ -58,7 +79,21 @@ end]]></text>
 end]]></text>
 </snippet>
 <snippet>
+<tag>gampress</tag> <!--Short form version-->
+<description>love.gamepadpressed(joystick, button)</description>
+<text><![CDATA[function love.gamepadpressed(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
 <tag>padpressed</tag> <!--Short form version-->
+<description>love.gamepadpressed(joystick, button)</description>
+<text><![CDATA[function love.gamepadpressed(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>gampressed</tag> <!--Short form version-->
 <description>love.gamepadpressed(joystick, button)</description>
 <text><![CDATA[function love.gamepadpressed(joystick, button)
 	$0
@@ -88,6 +123,27 @@ end]]></text>
 </snippet>
 <snippet>
 <tag>padrelease</tag> <!--Short form version-->
+<description>love.gamepadreleased(joystick, button)</description>
+<text><![CDATA[function love.gamepadreleased(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>gamrel</tag> <!--Short form version-->
+<description>love.gamepadreleased(joystick, button)</description>
+<text><![CDATA[function love.gamepadreleased(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>gamreleased</tag> <!--Short form version-->
+<description>love.gamepadreleased(joystick, button)</description>
+<text><![CDATA[function love.gamepadreleased(joystick, button)
+	$0
+end]]></text>
+</snippet>
+<snippet>
+<tag>gamrelease</tag> <!--Short form version-->
 <description>love.gamepadreleased(joystick, button)</description>
 <text><![CDATA[function love.gamepadreleased(joystick, button)
 	$0
@@ -135,29 +191,29 @@ end]]></text>
 
 <snippet>
 <tag>joyrel</tag> <!--Short form version-->
-<description>love.joystickpadreleased(joystick, button)</description>
-<text><![CDATA[function love.joystickpadreleased(joystick, button)
+<description>love.joystickreleased(joystick, button)</description>
+<text><![CDATA[function love.joystickreleased(joystick, button)
 	$0
 end]]></text>
 </snippet>
 <snippet>
 <tag>joyreleased</tag> <!--Short form version-->
-<description>love.joystickpadreleased(joystick, button)</description>
-<text><![CDATA[function love.joystickpadreleased(joystick, button)
+<description>love.joystickreleased(joystick, button)</description>
+<text><![CDATA[function love.joystickreleased(joystick, button)
 	$0
 end]]></text>
 </snippet>
 <snippet>
 <tag>joyrelease</tag> <!--Short form version-->
-<description>love.joystickpadreleased(joystick, button)</description>
-<text><![CDATA[function love.joystickpadreleased(joystick, button)
+<description>love.joystickreleased(joystick, button)</description>
+<text><![CDATA[function love.joystickreleased(joystick, button)
 	$0
 end]]></text>
 </snippet>
 <snippet>
-<tag>joystickpadreleased</tag> 
-<description>love.joystickpadreleased(joystick, button)</description>
-<text><![CDATA[function love.joystickpadreleased(joystick, button)
+<tag>joystickreleased</tag> 
+<description>love.joystickreleased(joystick, button)</description>
+<text><![CDATA[function love.joystickreleased(joystick, button)
 	$0
 end]]></text>
 </snippet>
@@ -295,6 +351,12 @@ $0]]></text>
 
 <snippet>
 <tag>spadmap</tag> <!--Short form version-->
+<description>love.joystic.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)</description>
+<text><![CDATA[love.joystic.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)
+$0]]></text>
+</snippet>
+<snippet>
+<tag>sgammap</tag> <!--Short form version-->
 <description>love.joystic.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)</description>
 <text><![CDATA[love.joystic.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)
 $0]]></text>
