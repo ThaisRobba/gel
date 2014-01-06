@@ -30,24 +30,4 @@
     <accelerator><![CDATA[<Primary>4]]></accelerator>
     <text><![CDATA[{$GEDIT_SELECTED_TEXT$0}]]></text>
   </snippet>
-  <snippet>
-    <description>[$text]</description>
-    <accelerator><![CDATA[<Primary>bracketleft]]></accelerator>
-    <text><![CDATA[[$GEDIT_SELECTED_TEXT$0]]]></text>
-  </snippet>
-  <snippet>
-    <description>"$text"</description>
-    <accelerator><![CDATA[<Primary><Shift>quotedbl]]></accelerator>
-    <text><![CDATA["$GEDIT_SELECTED_TEXT$0"]]></text>
-  </snippet>
-  <snippet>
-    <description>($text)</description>
-    <accelerator><![CDATA[<Primary><Shift>parenleft]]></accelerator>
-    <text><![CDATA[($GEDIT_SELECTED_TEXT$0)]]></text>
-  </snippet>
-  <snippet>
-    <description>{$text}</description>
-    <accelerator><![CDATA[<Primary><Shift>braceleft]]></accelerator>
-    <text><![CDATA[{$GEDIT_SELECTED_TEXT$0}]]></text>
-  </snippet>
 </snippets>
