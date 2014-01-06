@@ -126,191 +126,191 @@
     </context>
 
     <context id="love" style-ref="function">
-      <keyword>:add</keyword>
-      <keyword>:applyAngularImpulse</keyword>
-      <keyword>:applyForce</keyword>
-      <keyword>:applyLinearImpulse</keyword>
-      <keyword>:applyTorque</keyword>
-      <keyword>:bind</keyword>
-      <keyword>:clear</keyword>
-      <keyword>:close</keyword>
-      <keyword>:computeAABB</keyword>
-      <keyword>:computeMass</keyword>
-      <keyword>:count</keyword>
-      <keyword>:demand</keyword>
-      <keyword>:destroy</keyword>
-      <keyword>:emit</keyword>
-      <keyword>:encode</keyword>
-      <keyword>:eof</keyword>
-      <keyword>:evaluate</keyword>
-      <keyword>:flush</keyword>
-      <keyword>:getAnchors</keyword>
-      <keyword>:getAngle</keyword>
-      <keyword>:getAngularDamping</keyword>
-      <keyword>:getAngularVelocity</keyword>
-      <keyword>:getAreaSpread</keyword>
-      <keyword>:getAscent</keyword>
-      <keyword>:getAttenuationDistances</keyword>
-      <keyword>:getAxes</keyword>
-      <keyword>:getAxisCount</keyword>
-      <keyword>:getAxis</keyword>
-      <keyword>:getBackgroundColor</keyword>
-      <keyword>:getBaseline</keyword>
-      <keyword>:getBitDepth</keyword>
-      <keyword>:getBits</keyword>
-      <keyword>:getBlendMode</keyword>
-      <keyword>:getBodyCount</keyword>
-      <keyword>:getBody</keyword>
-      <keyword>:getBodyList</keyword>
-      <keyword>:getBoundingBox</keyword>
-      <keyword>:getBuffer</keyword>
-      <keyword>:getBufferSize</keyword>
-      <keyword>:getButtonCount</keyword>
-      <keyword>:getCallbacks</keyword>
-      <keyword>:getCategory</keyword>
-      <keyword>:getChannels</keyword>
-      <keyword>:getChildCount</keyword>
-      <keyword>:getChildren</keyword>
-      <keyword>:getCollideConnected</keyword>
-      <keyword>:getColor</keyword>
-      <keyword>:getColors</keyword>
-      <keyword>:getCone</keyword>
-      <keyword>:getContactCount</keyword>
-      <keyword>:getContactFilter</keyword>
-      <keyword>:getContactList</keyword>
-      <keyword>:getControlPointCount</keyword>
-      <keyword>:getControlPoint</keyword>
-      <keyword>:getCount</keyword>
-      <keyword>:getData</keyword>
-      <keyword>:getDegree</keyword>
-      <keyword>:getDensity</keyword>
-      <keyword>:getDerivative</keyword>
-      <keyword>:getDescent</keyword>
-      <keyword>:getDimensions</keyword>
-      <keyword>:getDirection</keyword>
-      <keyword>:getDrawMode</keyword>
-      <keyword>:getDuration</keyword>
-      <keyword>:getEmissionRate</keyword>
-      <keyword>:getEmitterLifetime</keyword>
-      <keyword>:getError</keyword>
-      <keyword>:getExtension</keyword>
-      <keyword>:getFilename</keyword>
-      <keyword>:getFilterData</keyword>
-      <keyword>:getFilter</keyword>
-      <keyword>:getFixtureList</keyword>
-      <keyword>:getFormat</keyword>
-      <keyword>:getFriction</keyword>
-      <keyword>:getGamepadAxis</keyword>
-      <keyword>:getGamepadMapping</keyword>
-      <keyword>:getGravity</keyword>
-      <keyword>:getGravityScale</keyword>
-      <keyword>:getGroupIndex</keyword>
-      <keyword>:getGUID</keyword>
-      <keyword>:getHatCount</keyword>
-      <keyword>:getHat</keyword>
-      <keyword>:getHeight</keyword>
-      <keyword>:getID</keyword>
-      <keyword>:getImageData</keyword>
-      <keyword>:getImage</keyword>
-      <keyword>:getInertia</keyword>
-      <keyword>:getInsertMode</keyword>
-      <keyword>:getJointCount</keyword>
-      <keyword>:getJointList</keyword>
-      <keyword>:getLinearAcceleration</keyword>
-      <keyword>:getLinearDamping</keyword>
-      <keyword>:getLinearVelocityFromLocalPoint</keyword>
-      <keyword>:getLinearVelocityFromWorldPoint</keyword>
-      <keyword>:getLinearVelocity</keyword>
-      <keyword>:getLineHeight</keyword>
-      <keyword>:getLocalCenter</keyword>
-      <keyword>:getLocalPoint</keyword>
-      <keyword>:getLocalVector</keyword>
-      <keyword>:getMask</keyword>
-      <keyword>:getMassData</keyword>
-      <keyword>:getMass</keyword>
-      <keyword>:getMipmapCount</keyword>
-      <keyword>:getMipmapFilter</keyword>
-      <keyword>:getMode</keyword>
-      <keyword>:getName</keyword>
-      <keyword>:getNormal</keyword>
-      <keyword>:getOffset</keyword>
-      <keyword>:getOffsetX</keyword>
-      <keyword>:getOffsetY</keyword>
-      <keyword>:getParticleLifetime</keyword>
-      <keyword>:getPitch</keyword>
-      <keyword>:getPixel</keyword>
-      <keyword>:getPointer</keyword>
-      <keyword>:getPosition</keyword>
-      <keyword>:getPositions</keyword>
-      <keyword>:getRadialAcceleration</keyword>
-      <keyword>:getReactionForce</keyword>
-      <keyword>:getReactionTorque</keyword>
-      <keyword>:getRestitution</keyword>
-      <keyword>:getRolloff</keyword>
-      <keyword>:getRotation</keyword>
-      <keyword>:getSampleCount</keyword>
-      <keyword>:getSample</keyword>
-      <keyword>:getSampleRate</keyword>
-      <keyword>:getSeed</keyword>
-      <keyword>:getShape</keyword>
-      <keyword>:getSize</keyword>
-      <keyword>:getSizes</keyword>
-      <keyword>:getSizeVariation</keyword>
-      <keyword>:getSpeed</keyword>
-      <keyword>:getSpin</keyword>
-      <keyword>:getSpinVariation</keyword>
-      <keyword>:getSpread</keyword>
-      <keyword>:getString</keyword>
-      <keyword>:getTangentialAcceleration</keyword>
-      <keyword>:getType</keyword>
-      <keyword>:getUserData</keyword>
-      <keyword>:getVelocity</keyword>
-      <keyword>:getVertexCount</keyword>
-      <keyword>:getVertex</keyword>
-      <keyword>:getVertexMap</keyword>
-      <keyword>:getVertices</keyword>
-      <keyword>:getVibration</keyword>
-      <keyword>:getViewport</keyword>
-      <keyword>:getVolume</keyword>
-      <keyword>:getVolumeLimits</keyword>
-      <keyword>:getWarnings</keyword>
-      <keyword>:getWidth</keyword>
-      <keyword>:getWorldCenter</keyword>
-      <keyword>:getWorldPoint</keyword>
-      <keyword>:getWorldPoints</keyword>
-      <keyword>:getWorldVector</keyword>
-      <keyword>:getWrap</keyword>
-      <keyword>:getX</keyword>
-      <keyword>:getY</keyword>
-      <keyword>:hasGlyphs</keyword>
-      <keyword>:hasVertexColors</keyword>
-      <keyword>:insertControlPoint</keyword>
-      <keyword>:isActive</keyword>
-      <keyword>:isAwake</keyword>
-      <keyword>:isBullet</keyword>
-      <keyword>:isCompressed</keyword>
-      <keyword>:isConnected</keyword>
-      <keyword>:isDown</keyword>
-      <keyword>:isEmpty</keyword>
-      <keyword>:isEnabled</keyword>
-      <keyword>:isFixedRotation</keyword>
-      <keyword>:isFull</keyword>
-      <keyword>:isGamepadDown</keyword>
-      <keyword>:isGamepad</keyword>
-      <keyword>:isLocked</keyword>
-      <keyword>:isLooping</keyword>
-      <keyword>:isOpen</keyword>
-      <keyword>:isPaused</keyword>
-      <keyword>:isPlaying</keyword>
-      <keyword>:isRelative</keyword>
-      <keyword>:isRunning</keyword>
-      <keyword>:isSensor</keyword>
-      <keyword>:isSleepingAllowed</keyword>
-      <keyword>:isStatic</keyword>
-      <keyword>:isStopped</keyword>
-      <keyword>:isTouching</keyword>
-      <keyword>:isVibrationSupported</keyword>
-      <keyword>:lines</keyword>
+            <keyword>add</keyword>
+      <keyword>applyAngularImpulse</keyword>
+      <keyword>applyForce</keyword>
+      <keyword>applyLinearImpulse</keyword>
+      <keyword>applyTorque</keyword>
+      <keyword>bind</keyword>
+      <keyword>clear</keyword>
+      <keyword>close</keyword>
+      <keyword>computeAABB</keyword>
+      <keyword>computeMass</keyword>
+      <keyword>count</keyword>
+      <keyword>demand</keyword>
+      <keyword>destroy</keyword>
+      <keyword>emit</keyword>
+      <keyword>encode</keyword>
+      <keyword>eof</keyword>
+      <keyword>evaluate</keyword>
+      <keyword>flush</keyword>
+      <keyword>getAnchors</keyword>
+      <keyword>getAngle</keyword>
+      <keyword>getAngularDamping</keyword>
+      <keyword>getAngularVelocity</keyword>
+      <keyword>getAreaSpread</keyword>
+      <keyword>getAscent</keyword>
+      <keyword>getAttenuationDistances</keyword>
+      <keyword>getAxes</keyword>
+      <keyword>getAxisCount</keyword>
+      <keyword>getAxis</keyword>
+      <keyword>getBackgroundColor</keyword>
+      <keyword>getBaseline</keyword>
+      <keyword>getBitDepth</keyword>
+      <keyword>getBits</keyword>
+      <keyword>getBlendMode</keyword>
+      <keyword>getBodyCount</keyword>
+      <keyword>getBody</keyword>
+      <keyword>getBodyList</keyword>
+      <keyword>getBoundingBox</keyword>
+      <keyword>getBuffer</keyword>
+      <keyword>getBufferSize</keyword>
+      <keyword>getButtonCount</keyword>
+      <keyword>getCallbacks</keyword>
+      <keyword>getCategory</keyword>
+      <keyword>getChannels</keyword>
+      <keyword>getChildCount</keyword>
+      <keyword>getChildren</keyword>
+      <keyword>getCollideConnected</keyword>
+      <keyword>getColor</keyword>
+      <keyword>getColors</keyword>
+      <keyword>getCone</keyword>
+      <keyword>getContactCount</keyword>
+      <keyword>getContactFilter</keyword>
+      <keyword>getContactList</keyword>
+      <keyword>getControlPointCount</keyword>
+      <keyword>getControlPoint</keyword>
+      <keyword>getCount</keyword>
+      <keyword>getData</keyword>
+      <keyword>getDegree</keyword>
+      <keyword>getDensity</keyword>
+      <keyword>getDerivative</keyword>
+      <keyword>getDescent</keyword>
+      <keyword>getDimensions</keyword>
+      <keyword>getDirection</keyword>
+      <keyword>getDrawMode</keyword>
+      <keyword>getDuration</keyword>
+      <keyword>getEmissionRate</keyword>
+      <keyword>getEmitterLifetime</keyword>
+      <keyword>getError</keyword>
+      <keyword>getExtension</keyword>
+      <keyword>getFilename</keyword>
+      <keyword>getFilterData</keyword>
+      <keyword>getFilter</keyword>
+      <keyword>getFixtureList</keyword>
+      <keyword>getFormat</keyword>
+      <keyword>getFriction</keyword>
+      <keyword>getGamepadAxis</keyword>
+      <keyword>getGamepadMapping</keyword>
+      <keyword>getGravity</keyword>
+      <keyword>getGravityScale</keyword>
+      <keyword>getGroupIndex</keyword>
+      <keyword>getGUID</keyword>
+      <keyword>getHatCount</keyword>
+      <keyword>getHat</keyword>
+      <keyword>getHeight</keyword>
+      <keyword>getID</keyword>
+      <keyword>getImageData</keyword>
+      <keyword>getImage</keyword>
+      <keyword>getInertia</keyword>
+      <keyword>getInsertMode</keyword>
+      <keyword>getJointCount</keyword>
+      <keyword>getJointList</keyword>
+      <keyword>getLinearAcceleration</keyword>
+      <keyword>getLinearDamping</keyword>
+      <keyword>getLinearVelocityFromLocalPoint</keyword>
+      <keyword>getLinearVelocityFromWorldPoint</keyword>
+      <keyword>getLinearVelocity</keyword>
+      <keyword>getLineHeight</keyword>
+      <keyword>getLocalCenter</keyword>
+      <keyword>getLocalPoint</keyword>
+      <keyword>getLocalVector</keyword>
+      <keyword>getMask</keyword>
+      <keyword>getMassData</keyword>
+      <keyword>getMass</keyword>
+      <keyword>getMipmapCount</keyword>
+      <keyword>getMipmapFilter</keyword>
+      <keyword>getMode</keyword>
+      <keyword>getName</keyword>
+      <keyword>getNormal</keyword>
+      <keyword>getOffset</keyword>
+      <keyword>getOffsetX</keyword>
+      <keyword>getOffsetY</keyword>
+      <keyword>getParticleLifetime</keyword>
+      <keyword>getPitch</keyword>
+      <keyword>getPixel</keyword>
+      <keyword>getPointer</keyword>
+      <keyword>getPosition</keyword>
+      <keyword>getPositions</keyword>
+      <keyword>getRadialAcceleration</keyword>
+      <keyword>getReactionForce</keyword>
+      <keyword>getReactionTorque</keyword>
+      <keyword>getRestitution</keyword>
+      <keyword>getRolloff</keyword>
+      <keyword>getRotation</keyword>
+      <keyword>getSampleCount</keyword>
+      <keyword>getSample</keyword>
+      <keyword>getSampleRate</keyword>
+      <keyword>getSeed</keyword>
+      <keyword>getShape</keyword>
+      <keyword>getSize</keyword>
+      <keyword>getSizes</keyword>
+      <keyword>getSizeVariation</keyword>
+      <keyword>getSpeed</keyword>
+      <keyword>getSpin</keyword>
+      <keyword>getSpinVariation</keyword>
+      <keyword>getSpread</keyword>
+      <keyword>getString</keyword>
+      <keyword>getTangentialAcceleration</keyword>
+      <keyword>getType</keyword>
+      <keyword>getUserData</keyword>
+      <keyword>getVelocity</keyword>
+      <keyword>getVertexCount</keyword>
+      <keyword>getVertex</keyword>
+      <keyword>getVertexMap</keyword>
+      <keyword>getVertices</keyword>
+      <keyword>getVibration</keyword>
+      <keyword>getViewport</keyword>
+      <keyword>getVolume</keyword>
+      <keyword>getVolumeLimits</keyword>
+      <keyword>getWarnings</keyword>
+      <keyword>getWidth</keyword>
+      <keyword>getWorldCenter</keyword>
+      <keyword>getWorldPoint</keyword>
+      <keyword>getWorldPoints</keyword>
+      <keyword>getWorldVector</keyword>
+      <keyword>getWrap</keyword>
+      <keyword>getX</keyword>
+      <keyword>getY</keyword>
+      <keyword>hasGlyphs</keyword>
+      <keyword>hasVertexColors</keyword>
+      <keyword>insertControlPoint</keyword>
+      <keyword>isActive</keyword>
+      <keyword>isAwake</keyword>
+      <keyword>isBullet</keyword>
+      <keyword>isCompressed</keyword>
+      <keyword>isConnected</keyword>
+      <keyword>isDown</keyword>
+      <keyword>isEmpty</keyword>
+      <keyword>isEnabled</keyword>
+      <keyword>isFixedRotation</keyword>
+      <keyword>isFull</keyword>
+      <keyword>isGamepadDown</keyword>
+      <keyword>isGamepad</keyword>
+      <keyword>isLocked</keyword>
+      <keyword>isLooping</keyword>
+      <keyword>isOpen</keyword>
+      <keyword>isPaused</keyword>
+      <keyword>isPlaying</keyword>
+      <keyword>isRelative</keyword>
+      <keyword>isRunning</keyword>
+      <keyword>isSensor</keyword>
+      <keyword>isSleepingAllowed</keyword>
+      <keyword>isStatic</keyword>
+      <keyword>isStopped</keyword>
+      <keyword>isTouching</keyword>
+      <keyword>isVibrationSupported</keyword>
+      <keyword>lines</keyword>
       <keyword>love.audio.getDistanceModel</keyword>
       <keyword>love.audio.getOrientation</keyword>
       <keyword>love.audio.getPosition</keyword>
@@ -328,6 +328,8 @@
       <keyword>love.audio.setVelocity</keyword>
       <keyword>love.audio.setVolume</keyword>
       <keyword>love.audio.stop</keyword>
+<keyword>love.draw</keyword>
+      <keyword>love.errhand</keyword>
       <keyword>love.event.clear</keyword>
       <keyword>love.event.poll</keyword>
       <keyword>love.event.pump</keyword>
@@ -360,8 +362,12 @@
       <keyword>love.filesystem.setSource</keyword>
       <keyword>love.filesystem.unmount</keyword>
       <keyword>love.filesystem.write</keyword>
+      <keyword>love.focus</keyword>
       <keyword>love.font.newGlyphData</keyword>
       <keyword>love.font.newRasterizer</keyword>
+      <keyword>love.gamepadaxis</keyword>
+      <keyword>love.gamepadpressed</keyword>
+      <keyword>love.gamepadreleased</keyword>
       <keyword>love.graphics.arc</keyword>
       <keyword>love.graphics.circle</keyword>
       <keyword>love.graphics.clear</keyword>
@@ -433,14 +439,23 @@
       <keyword>love.image.isCompressed</keyword>
       <keyword>love.image.newCompressedData</keyword>
       <keyword>love.image.newImageData</keyword>
+      <keyword>love.joystickadded</keyword>
+      <keyword>love.joystickaxis</keyword>
       <keyword>love.joystick.getJoystickCount</keyword>
       <keyword>love.joystick.getJoysticks</keyword>
+      <keyword>love.joystickhat</keyword>
+      <keyword>love.joystickpressed</keyword>
+      <keyword>love.joystickreleased</keyword>
+      <keyword>love.joystickremoved</keyword>
       <keyword>love.joystick.setGamepadMapping</keyword>
       <keyword>love.keyboard.hasKeyRepeat</keyword>
       <keyword>love.keyboard.hasTextInput</keyword>
       <keyword>love.keyboard.isDown</keyword>
       <keyword>love.keyboard.setKeyRepeat</keyword>
       <keyword>love.keyboard.setTextInput</keyword>
+      <keyword>love.keypressed</keyword>
+      <keyword>love.keyreleased</keyword>
+      <keyword>love.load</keyword>
       <keyword>love.math.getRandomSeed</keyword>
       <keyword>love.math.isConvex</keyword>
       <keyword>love.math.newBezierCurve</keyword>
@@ -450,6 +465,7 @@
       <keyword>love.math.randomNormal</keyword>
       <keyword>love.math.setRandomSeed</keyword>
       <keyword>love.math.triangulate</keyword>
+      <keyword>love.mousefocus</keyword>
       <keyword>love.mouse.getCursor</keyword>
       <keyword>love.mouse.getPosition</keyword>
       <keyword>love.mouse.getSystemCursor</keyword>
@@ -459,6 +475,8 @@
       <keyword>love.mouse.isGrabbed</keyword>
       <keyword>love.mouse.isVisible</keyword>
       <keyword>love.mouse.newCursor</keyword>
+      <keyword>love.mousepressed</keyword>
+      <keyword>love.mousereleased</keyword>
       <keyword>love.mouse.setCursor</keyword>
       <keyword>love.mouse.setGrabbed</keyword>
       <keyword>love.mouse.setPosition</keyword>
@@ -486,6 +504,9 @@
       <keyword>love.physics.newWheelJoint</keyword>
       <keyword>love.physics.newWorld</keyword>
       <keyword>love.physics.setMeter</keyword>
+      <keyword>love.quit</keyword>
+      <keyword>love.resize</keyword>
+      <keyword>love.run</keyword>
       <keyword>love.sound.newDecoder</keyword>
       <keyword>love.sound.newSoundData</keyword>
       <keyword>love.system.getClipboardText</keyword>
@@ -493,6 +514,8 @@
       <keyword>love.system.getPowerInfo</keyword>
       <keyword>love.system.getProcessorCount</keyword>
       <keyword>love.system.setClipboardText</keyword>
+      <keyword>love.textinput</keyword>
+      <keyword>love.threaderror</keyword>
       <keyword>love.thread.getChannel</keyword>
       <keyword>love.thread.newChannel</keyword>
       <keyword>love.thread.newThread</keyword>
@@ -502,6 +525,8 @@
       <keyword>love.timer.getTime</keyword>
       <keyword>love.timer.sleep</keyword>
       <keyword>love.timer.step</keyword>
+      <keyword>love.update</keyword>
+      <keyword>love.visible</keyword>
       <keyword>love.window.getDesktopDimensions</keyword>
       <keyword>love.window.getDimensions</keyword>
       <keyword>love.window.getFullscreen</keyword>
@@ -519,122 +544,123 @@
       <keyword>love.window.setIcon</keyword>
       <keyword>love.window.setMode</keyword>
       <keyword>love.window.setTitle</keyword>
-      <keyword>:mapPixel</keyword>
-      <keyword>:open</keyword>
-      <keyword>:paste</keyword>
-      <keyword>:pause</keyword>
-      <keyword>:peek</keyword>
-      <keyword>:play</keyword>
-      <keyword>:pop</keyword>
-      <keyword>:push</keyword>
-      <keyword>:queryBoundingBox</keyword>
-      <keyword>:random</keyword>
-      <keyword>:randomNormal</keyword>
-      <keyword>:rayCast</keyword>
-      <keyword>:read</keyword>
-      <keyword>:refresh</keyword>
-      <keyword>:render</keyword>
-      <keyword>:renderTo</keyword>
-      <keyword>:resetFriction</keyword>
-      <keyword>:reset</keyword>
-      <keyword>:resetMassData</keyword>
-      <keyword>:resetRestitution</keyword>
-      <keyword>:resume</keyword>
-      <keyword>:rewind</keyword>
-      <keyword>:rotate</keyword>
-      <keyword>:scale</keyword>
-      <keyword>:seek</keyword>
-      <keyword>:send</keyword>
-      <keyword>:setActive</keyword>
-      <keyword>:setAngle</keyword>
-      <keyword>:setAngularDamping</keyword>
-      <keyword>:setAngularVelocity</keyword>
-      <keyword>:setAreaSpread</keyword>
-      <keyword>:setAttenuationDistances</keyword>
-      <keyword>:setAwake</keyword>
-      <keyword>:setBuffer</keyword>
-      <keyword>:setBufferSize</keyword>
-      <keyword>:setBullet</keyword>
-      <keyword>:setCategory</keyword>
-      <keyword>:setCollideConnected</keyword>
-      <keyword>:setColor</keyword>
-      <keyword>:setColors</keyword>
-      <keyword>:setCone</keyword>
-      <keyword>:setContactFilter</keyword>
-      <keyword>:setControlPoint</keyword>
-      <keyword>:setDensity</keyword>
-      <keyword>:setDirection</keyword>
-      <keyword>:setDrawMode</keyword>
-      <keyword>:setEmissionRate</keyword>
-      <keyword>:setEmitterLifetime</keyword>
-      <keyword>:setEnabled</keyword>
-      <keyword>:setFilterData</keyword>
-      <keyword>:setFilter</keyword>
-      <keyword>:setFixedRotation</keyword>
-      <keyword>:setFriction</keyword>
-      <keyword>:setGravity</keyword>
-      <keyword>:setGravityScale</keyword>
-      <keyword>:setGroupIndex</keyword>
-      <keyword>:setImage</keyword>
-      <keyword>:setInertia</keyword>
-      <keyword>:setInsertMode</keyword>
-      <keyword>:set</keyword>
-      <keyword>:setLifetime</keyword>
-      <keyword>:setLinearAcceleration</keyword>
-      <keyword>:setLinearDamping</keyword>
-      <keyword>:setLinearVelocity</keyword>
-      <keyword>:setLineHeight</keyword>
-      <keyword>:setLooping</keyword>
-      <keyword>:setMask</keyword>
-      <keyword>:setMassData</keyword>
-      <keyword>:setMass</keyword>
-      <keyword>:setMipmapFilter</keyword>
-      <keyword>:setOffset</keyword>
-      <keyword>:setParticleLifetime</keyword>
-      <keyword>:setPixel</keyword>
-      <keyword>:setPosition</keyword>
-      <keyword>:setq</keyword>
-      <keyword>:setRadialAcceleration</keyword>
-      <keyword>:setRelative</keyword>
-      <keyword>:setRestitution</keyword>
-      <keyword>:setRolloff</keyword>
-      <keyword>:setRotation</keyword>
-      <keyword>:setSample</keyword>
-      <keyword>:setSeed</keyword>
-      <keyword>:setSensor</keyword>
-      <keyword>:setSize</keyword>
-      <keyword>:setSizes</keyword>
-      <keyword>:setSizeVariation</keyword>
-      <keyword>:setSleepingAllowed</keyword>
-      <keyword>:setSpeed</keyword>
-      <keyword>:setSprite</keyword>
-      <keyword>:setTangentialAcceleration</keyword>
-      <keyword>:setType</keyword>
-      <keyword>:setUserData</keyword>
-      <keyword>:setVelocity</keyword>
-      <keyword>:setVertexColors</keyword>
-      <keyword>:setVertex</keyword>
-      <keyword>:setVertexMap</keyword>
-      <keyword>:setVertices</keyword>
-      <keyword>:setVibration</keyword>
-      <keyword>:setViewport</keyword>
-      <keyword>:setVolume</keyword>
-      <keyword>:setVolumeLimits</keyword>
-      <keyword>:setWrap</keyword>
-      <keyword>:setX</keyword>
-      <keyword>:setY</keyword>
-      <keyword>:start</keyword>
-      <keyword>:stop</keyword>
-      <keyword>:supply</keyword>
-      <keyword>:tell</keyword>
-      <keyword>:testPoint</keyword>
-      <keyword>:translate</keyword>
-      <keyword>:type</keyword>
-      <keyword>:typeOf</keyword>
-      <keyword>:unbind</keyword>
-      <keyword>:update</keyword>
-      <keyword>:wait</keyword>
-      <keyword>:write</keyword>
+      <keyword>mapPixel</keyword>
+      <keyword>open</keyword>
+      <keyword>paste</keyword>
+      <keyword>pause</keyword>
+      <keyword>peek</keyword>
+      <keyword>play</keyword>
+      <keyword>pop</keyword>
+      <keyword>push</keyword>
+      <keyword>queryBoundingBox</keyword>
+      <keyword>random</keyword>
+      <keyword>randomNormal</keyword>
+      <keyword>rayCast</keyword>
+      <keyword>read</keyword>
+      <keyword>refresh</keyword>
+      <keyword>render</keyword>
+      <keyword>renderTo</keyword>
+      <keyword>resetFriction</keyword>
+      <keyword>reset</keyword>
+      <keyword>resetMassData</keyword>
+      <keyword>resetRestitution</keyword>
+      <keyword>resume</keyword>
+      <keyword>rewind</keyword>
+      <keyword>rotate</keyword>
+      <keyword>scale</keyword>
+      <keyword>seek</keyword>
+      <keyword>send</keyword>
+      <keyword>setActive</keyword>
+      <keyword>setAngle</keyword>
+      <keyword>setAngularDamping</keyword>
+      <keyword>setAngularVelocity</keyword>
+      <keyword>setAreaSpread</keyword>
+      <keyword>setAttenuationDistances</keyword>
+      <keyword>setAwake</keyword>
+      <keyword>setBuffer</keyword>
+      <keyword>setBufferSize</keyword>
+      <keyword>setBullet</keyword>
+      <keyword>setCategory</keyword>
+      <keyword>setCollideConnected</keyword>
+      <keyword>setColor</keyword>
+      <keyword>setColors</keyword>
+      <keyword>setCone</keyword>
+      <keyword>setContactFilter</keyword>
+      <keyword>setControlPoint</keyword>
+      <keyword>setDensity</keyword>
+      <keyword>setDirection</keyword>
+      <keyword>setDrawMode</keyword>
+      <keyword>setEmissionRate</keyword>
+      <keyword>setEmitterLifetime</keyword>
+      <keyword>setEnabled</keyword>
+      <keyword>setFilterData</keyword>
+      <keyword>setFilter</keyword>
+      <keyword>setFixedRotation</keyword>
+      <keyword>setFriction</keyword>
+      <keyword>setGravity</keyword>
+      <keyword>setGravityScale</keyword>
+      <keyword>setGroupIndex</keyword>
+      <keyword>setImage</keyword>
+      <keyword>setInertia</keyword>
+      <keyword>setInsertMode</keyword>
+      <keyword>set</keyword>
+      <keyword>setLifetime</keyword>
+      <keyword>setLinearAcceleration</keyword>
+      <keyword>setLinearDamping</keyword>
+      <keyword>setLinearVelocity</keyword>
+      <keyword>setLineHeight</keyword>
+      <keyword>setLooping</keyword>
+      <keyword>setMask</keyword>
+      <keyword>setMassData</keyword>
+      <keyword>setMass</keyword>
+      <keyword>setMipmapFilter</keyword>
+      <keyword>setOffset</keyword>
+      <keyword>setParticleLifetime</keyword>
+      <keyword>setPixel</keyword>
+      <keyword>setPosition</keyword>
+      <keyword>setq</keyword>
+      <keyword>setRadialAcceleration</keyword>
+      <keyword>setRelative</keyword>
+      <keyword>setRestitution</keyword>
+      <keyword>setRolloff</keyword>
+      <keyword>setRotation</keyword>
+      <keyword>setSample</keyword>
+      <keyword>setSeed</keyword>
+      <keyword>setSensor</keyword>
+      <keyword>setSize</keyword>
+      <keyword>setSizes</keyword>
+      <keyword>setSizeVariation</keyword>
+      <keyword>setSleepingAllowed</keyword>
+      <keyword>setSpeed</keyword>
+      <keyword>setSprite</keyword>
+      <keyword>setTangentialAcceleration</keyword>
+      <keyword>setType</keyword>
+      <keyword>setUserData</keyword>
+      <keyword>setVelocity</keyword>
+      <keyword>setVertexColors</keyword>
+      <keyword>setVertex</keyword>
+      <keyword>setVertexMap</keyword>
+      <keyword>setVertices</keyword>
+      <keyword>setVibration</keyword>
+      <keyword>setViewport</keyword>
+      <keyword>setVolume</keyword>
+      <keyword>setVolumeLimits</keyword>
+      <keyword>setWrap</keyword>
+      <keyword>setX</keyword>
+      <keyword>setY</keyword>
+      <keyword>start</keyword>
+      <keyword>stop</keyword>
+      <keyword>supply</keyword>
+      <keyword>tell</keyword>
+      <keyword>testPoint</keyword>
+      <keyword>translate</keyword>
+      <keyword>type</keyword>
+      <keyword>typeOf</keyword>
+      <keyword>unbind</keyword>
+      <keyword>update</keyword>
+      <keyword>wait</keyword>
+      <keyword>write</keyword>
+
     </context>
 
     <context id="lua-reserved" style-ref="reserved">
