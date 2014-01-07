@@ -1,0 +1,98 @@
+<snippet>
+<tag>gamepadaxis</tag> 
+<description>love.gamepadaxis(joystick, axis)</description>
+<text><![CDATA[function love.gamepadaxis(joystick, axis)
+	$0
+end]]></text>
+</snippet>
+
+
+<snippet>
+<tag>joystickaxis</tag> 
+<description>love.joystickaxis(joystick, axis, value)</description>
+<text><![CDATA[function love.joystickaxis(joystick, axis, value)
+	$0
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>gamepadpressed</tag> 
+<description>love.gamepadpressed(joystick, button)</description>
+<text><![CDATA[function love.gamepadpressed(joystick, button)
+	$0
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>gamepadreleased</tag> 
+<description>love.gamepadreleased(joystick, button)</description>
+<text><![CDATA[function love.gamepadreleased(joystick, button)
+	$0
+end]]></text>
+</snippet>
+
+
+<snippet>
+<tag>joystickpressed</tag> 
+<description>love.joystickpressed(joystick, button)</description>
+<text><![CDATA[function love.joystickpressed(joystick, button)
+	$0
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>joystickreleased</tag> 
+<description>love.joystickreleased(joystick, button)</description>
+<text><![CDATA[function love.joystickreleased(joystick, button)
+	$0
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>joystickadded</tag>
+<description>love.joystickadded(joystick)</description>
+<text><![CDATA[function love.joystickadded(joystick)
+	$0
+end]]></text>
+</snippet>
+
+<snippet>
+<tag>joystickremoved</tag>
+<description>love.joystickremoved(joystick)</description>
+<text><![CDATA[function love.joystickremoved(joystick)
+	$0
+end]]></text>
+</snippet>
+
+
+
+<snippet>
+<tag>joystickhat</tag>
+<description>love.joystickhat(joystick, hat, direction)</description>
+<text><![CDATA[function love.joystickhat(joystick, hat, direction)
+	$0
+end]]></text>
+</snippet>
+
+
+<snippet>
+<tag>gjoystickcount</tag>
+<description>love.joystick.getJoystickCount()</description>
+<text><![CDATA[love.joystick.getJoystickCount()
+$0]]></text>
+</snippet>
+
+
+<snippet>
+<tag>gjoystick</tag>
+<description>love.joystick.getJoystick()</description>
+<text><![CDATA[love.joystick.getJoystick()
+$0]]></text>
+</snippet>
+
+<snippet>
+<tag>sgamepadmapping</tag> 
+<description>love.joystick.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)</description>
+<text><![CDATA[love.joystick.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)
+$0]]></text>
+</snippet>

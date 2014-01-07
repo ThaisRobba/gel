@@ -13,13 +13,6 @@
 		<text><![CDATA[love.graphics.circle(${1:mode}, ${2:x}, ${3:y}, ${4:radius}, ${5:segments})
 		$0]]></text>
 		</snippet>
-		<snippet>
-		<tag>cir</tag> <!--Short form version-->
-		<description>love.graphics.circle SF</description>
-		<text><![CDATA[love.graphics.circle(${1:mode}, ${2:x}, ${3:y}, ${4:radius}, ${5:segments})
-		$0]]></text>
-		</snippet>
-
 		
 		
 		<snippet>
@@ -28,40 +21,16 @@
 		<text><![CDATA[love.graphics.clear()
 		$0]]></text>
 		</snippet>
-		<snippet>
-		<tag>cle</tag> <!--Short form version-->
-		<description>love.graphics.clear SF</description>
-		<text><![CDATA[love.graphics.clear()
-		$0]]></text>
-		</snippet>
 		
 		
 		
 		<snippet>
 		<tag>line</tag> 
-		<description>love.graphics.line 2 Points</description>
-		<text><![CDATA[love.graphics.line(${1:x},${2:y},${3:x},${4:y})
+		<description>love.graphics.line(x1, y1, x2, y2, ...)</description>
+		<text><![CDATA[love.graphics.line(${1:x},${2:y},${3:x},${4:y...})
 		$0]]></text>
 		</snippet>
-		<snippet>
-		<tag>lin</tag> <!--Short form version-->
-		<description>love.graphics.line 2 Points SF</description>
-		<text><![CDATA[love.graphics.line(${1:x},${2:y},${3:x},${4:y})
-		$0]]></text>
-		</snippet>
-		<snippet>
-		<!--Long Form-->
-		<tag>lline</tag> 
-		<description>love.graphics.line N Points</description>
-		<text><![CDATA[love.graphics.line(${1:x},${2:y},${3:x},${4:y}, ${5:...})
-		$0]]></text>
-		</snippet>
-		<snippet>
-		<tag>llin</tag> <!--Short form version-->
-		<description>love.graphics.line N Points SF</description>
-		<text><![CDATA[love.graphics.line(${1:x},${2:y},${3:x},${4:y}, ${5:...})
-		$0]]></text>
-		</snippet>
+		
 			
 			
 			

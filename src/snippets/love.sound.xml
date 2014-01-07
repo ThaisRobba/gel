@@ -1,0 +1,14 @@
+<snippet>
+<tag>newdecoder</tag>
+<description>love.sound.newDecoder(file, buffer)</description>
+<text><![CDATA[love.sound.newDecoder(${1:file}, ${2:buffer})
+$0]]></text>
+</snippet>
+
+<snippet>
+<tag>newsounddata</tag>
+<description>love.sound.newSoundData(file)</description>
+<text><![CDATA[love.sound.newSoundData(${1:file})
+$0]]></text>
+</snippet>
+

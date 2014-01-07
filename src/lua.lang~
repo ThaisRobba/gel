@@ -126,7 +126,7 @@
     </context>
 
     <context id="love" style-ref="function">
-      <keyword>add</keyword>
+            <keyword>add</keyword>
       <keyword>applyAngularImpulse</keyword>
       <keyword>applyForce</keyword>
       <keyword>applyLinearImpulse</keyword>
@@ -328,7 +328,7 @@
       <keyword>love.audio.setVelocity</keyword>
       <keyword>love.audio.setVolume</keyword>
       <keyword>love.audio.stop</keyword>
-		<keyword>love.draw</keyword>
+<keyword>love.draw</keyword>
       <keyword>love.errhand</keyword>
       <keyword>love.event.clear</keyword>
       <keyword>love.event.poll</keyword>

@@ -1,0 +1,49 @@
+xmlstart = "<?xml version='1.0' encoding='utf-8'?>\n<snippets language=\"lua\">\n"
+xmlend = "</snippets>"
+
+local file = io.open("lua.snippets.xml", "r")
+lua = file:read("*a")
+file:close()
+
+local file = io.open("love.xml", "r")
+love = file:read("*a")
+file:close()
+
+local file = io.open("love.audio.xml", "r")
+audio = file:read("*a")
+file:close()
+
+local file = io.open("love.event.xml", "r")
+event = file:read("*a")
+file:close()
+
+local file = io.open("love.filesystem.xml", "r")
+filesystem = file:read("*a")
+file:close()
+
+local file = io.open("love.graphics.xml", "r")
+graphics = file:read("*a")
+file:close()
+
+local file = io.open("love.joystick.xml", "r")
+joystick = file:read("*a")
+file:close()
+
+local file = io.open("capsulate.xml", "r")
+capsulate = file:read("*a")
+file:close()
+
+
+
+local file = io.open("../compiled.xml", "w")
+file:write(xmlstart)
+file:write(lua)
+file:write(love)
+file:write(audio)
+file:write(event)
+file:write(filesystem)
+file:write(graphics)
+file:write(joystick)
+file:write(capsulate)
+file:write(xmlend)
+file:close()

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="love2d">
+<!--Add generic functions-->
+
+<!--End of generic functions-->
+<!--Add general callbacks-->
+
+<!--End of general callbacks-->
+<!--Add gamepad & joystick-->
+
+<!--End of gamepad & joystick-->
+<!--Add capsulators with accelerators-->
+
+<!--End of capsulators with accelerators-->
+<!--Add Drawing-->
+
+<!--End of Drawing-->
+<!--Add ObjectCreation-->
+
+<!--End of ObjectCreation-->
+<!--Add Graphics State-->
+
+<!--End of Graphics State-->
+</snippets>

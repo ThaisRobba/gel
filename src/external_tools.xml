@@ -1,0 +1,14 @@
+#!/bin/sh
+lua "$GEDIT_CURRENT_DOCUMENT_DIR/$GEDIT_CURRENT_DOCUMENT_NAME"
+
+#!/bin/sh
+love "$GEDIT_CURRENT_DOCUMENT_DIR"
+
+#!/bin/sh
+if which xdg-open > /dev/null
+then
+  xdg-open "http://www.love2d.org/w/index.php?title=Speacial%3ASearch&search="$GEDIT_SELECTED_TEXT"&go=Go"
+elif which gnome-open > /dev/null
+then
+  gnome-open "http://www.love2d.org/w/index.php?title=Speacial%3ASearch&search="$GEDIT_SELECTED_TEXT"&go=Go"
+fi

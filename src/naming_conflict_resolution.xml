@@ -1,0 +1,51 @@
+      love.clear (love.event vs love.graphics, they do different things. Can be resolved by having events use underscore)
+      love.draw (love.draw vs love.graphics.draw, they do different things. Can be resolved by having love.draw use underscore)
+		love.getDimensions (Window vs Graphics, Seems to be the same thing, Window seems to be the right one to use)
+      love.getHeight (Window vs Graphics, Seems to be the same thing, Window seems to be the right one to use)
+      love.getPosition (Audio vs Mouse. Important for both. Audio with underscore doesn't seem ideal but might be the lesser of two evils)
+      love.getWidth (Window vs Graphics, Seems to be the same thing, Window seems to be the right one to use)
+      love.isDown   (mouse vs keyboard. No good solution here. Maybe leave the mouse/keyboard part as a variable?)
+      love.isVisible  (window vs mouse, no clear solution here. Maybe make it so keyboard and mouse have different conventions?)
+      love.load   (fs load vs love.load. Love.* already uses underscore, no problem here)
+      love.push (love.event vs love.graphics, they do different things. Can be resolved by having events use underscore)
+      love.quit (love.event vs love.quit, not sure how to fix. Perhaps dot instead of underscore?)
+      love.setPosition (audio vs mouse, not sure how to resolve)
+      
+      
+      event vs graphics x2
+      *		vs graphics
+      win	vs graphics
+      audio	vs mouse
+      mouse	vs	keyboard
+      windowvs	mouse
+      event	vs	*
+      audio vs mouse
+      
+      * (2)
+      audio (2)
+      event (3)
+      graphics (4)
+      keyboard (1)
+      mouse (4)
+ 		window  (2)   
+ 		
+ 		event vs graphics =  have events use an 'e'?
+ 		* = use underscore
+
+      win	vs graphics
+      audio	vs mouse
+      mouse	vs	keyboard
+      windowvs	mouse
+      audio vs mouse
+      
+
+      audio (2)
+      graphics (1)
+      keyboard (1)
+      mouse (4)
+ 		window  (2)   
+ 		
+ 		mouse vs all = have mouse use an 'm'?
+
+ 		love.mouse.isDown()
+ 		

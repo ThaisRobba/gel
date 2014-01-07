@@ -1,10 +1,4 @@
 <snippet>
-<tag>ori</tag> <!--Short form version-->
-<description>love.graphics.origin()</description>
-<text><![CDATA[love.graphics.origin()
-$0]]></text>
-</snippet>
-<snippet>
 <tag>origin</tag>
 <description>love.graphics.origin()</description>
 <text><![CDATA[love.graphics.origin()
@@ -19,24 +13,12 @@ $0]]></text>
 </snippet>
 
 <snippet>
-<tag>pus</tag> <!--Short form version-->
-<description>love.graphics.push()</description>
-<text><![CDATA[love.graphics.push()
-$0]]></text>
-</snippet>
-<snippet>
 <tag>push</tag>
 <description>love.graphics.push()</description>
 <text><![CDATA[love.graphics.push()
 $0]]></text>
 </snippet>
 
-<snippet>
-<tag>rot</tag> <!--Short form version-->
-<description>love.graphics.rotate(angle)</description>
-<text><![CDATA[love.graphics.rotate(${1:angle})
-$0]]></text>
-</snippet>
 <snippet>
 <tag>rotate</tag>
 <description>love.graphics.rotate(angle)</description>
@@ -45,12 +27,6 @@ $0]]></text>
 </snippet>
 
 <snippet>
-<tag>sca</tag> <!--Short form version-->
-<description>love.graphics.scale(x_scale, y_scale)</description>
-<text><![CDATA[love.graphics.scale(${1:x_scale}, ${2:y_scale})
-$0]]></text>
-</snippet>
-<snippet>
 <tag>scale</tag>
 <description>love.graphics.scale(x_scale, y_scale)</description>
 <text><![CDATA[love.graphics.scale(${1:x_scale}, ${2:y_scale})
@@ -58,24 +34,12 @@ $0]]></text>
 </snippet>
 
 <snippet>
-<tag>she</tag> <!--Short form version-->
-<description>love.graphics.shear(x_shear, y_shear)</description>
-<text><![CDATA[love.graphics.shear(${1:x_shear}, ${2:y_shear})
-$0]]></text>
-</snippet>
-<snippet>
 <tag>shear</tag>
 <description>love.graphics.shear(x_shear, y_shear)</description>
 <text><![CDATA[love.graphics.shear(${1:x_shear}, ${2:y_shear})
 $0]]></text>
 </snippet>		
 
-<snippet>
-<tag>tra</tag> <!--Short form version-->
-<description>love.graphics.translate(x_translation, y_translation)</description>
-<text><![CDATA[love.graphics.translate(${1:x_translation}, ${2:y_translation})
-$0]]></text>
-</snippet>
 <snippet>
 <tag>translate</tag>
 <description>love.graphics.translate(x_translation, y_translation)</description>
