@@ -1,7 +1,0 @@
-<snippet>
-<tag>newGlyphData</tag>
-<description>love.font.newGlyphData(rasterizer, glyph)</description>
-<text><![CDATA[love.font.newGlyphData(${1:rasterizer}, ${2:glyph_char_code})
-$0]]></text>
-</snippet>
-
