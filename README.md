@@ -44,6 +44,7 @@ The following features are included in it:
 
 ##Installation
 ###Dependencies
+- Gedit
 - Snippets Plugin
 - External Tools Plugin
 Both are available for Gedit 2 and Gedit 3, so this should work on Windows, OSX and Linux.
