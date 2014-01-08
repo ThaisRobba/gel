@@ -126,25 +126,19 @@ Some functions accept many different arguments but, usually, only a few are used
 		love.graphics.print(text, x, y, r, sx, sy, ox, oy, kx, ky)
 
 ###Ok what about the sneaky underscore?
-Due to conflicts of love callbacks with love.graphics, the former functions must be done with an underscore before them.
+Think of the underscore as a way to output the alternative command and the love.* callbacks. Why the alternative, you ask? Simply due to the fact that some callbacks end up with the same name.
+
 This means:
 
 		_draw 		>> function love.draw() end
+        draw		>> love.graphics.draw()
 		_errhand 	>> function love.errhand(msg) end
 		_focus 		>> function love.focus(f) end
 
 And so on, and so forth. Visit http://www.love2d.org/wiki/love for the list of callbacks.
 
-###Any other exceptions?
-
-The more exceptions we add to rules, the worst the situation becomes - there is only so much we can remember and it is best to stick as close to LÖVE as possible.
-There are conflicts, however, which prompted the solution used here:
-
-		getdimensions + tab >> love.graphics.getDimensions()
-
-The "graphics" part will be selected. You can either tab and skip editing it or you could type "window", changing to a different module.
-
-Here is a list with all the exceptions, the one on the left being the favored one (ie: the one that displays by default):
+###List of other exceptions
+The one that displays by default is the one on the left:
 
 		love.graphics.clear X love.event.clear
 		love.graphics.getDimensions X love.window.getDimensions
@@ -155,7 +149,6 @@ Here is a list with all the exceptions, the one on the left being the favored on
 		love.mouse.setPosition X love.audio.setPosition 
 		love.mouse.isDown X love.keyboard.isDown
 		love.mouse.isVisible X love.window.isVisible
-
 
 ###Encapsulating
 Having the code selected, use one of the following shortcuts:
