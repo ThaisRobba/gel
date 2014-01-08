@@ -7,7 +7,6 @@ An advanced LÖVE snippet system along with syntax highlighting & custom command
 
 ##What can it do?
 
-The following features are included in it:
 - Add brackets around selected code
 
 		isGorgeous 	>> ({"['isGorgeous']"})
