@@ -47,84 +47,79 @@ $0]]></text>
 $0]]></text>
 </snippet>
 
-		<snippet>
-		<tag>arc</tag>
-		<description>love.graphics.arc</description>
-		<text><![CDATA[love.graphics.arc(${1:mode}, ${2:x}, ${3:y}, ${4:radius}, ${5:angle1}, ${6:angle2}, ${7:segments})
-		$0]]></text>
-		</snippet>
-		
-		<snippet>
-		<tag>circle</tag>
-		<description>love.graphics.circle</description>
-		<text><![CDATA[love.graphics.circle(${1:mode}, ${2:x}, ${3:y}, ${4:radius}, ${5:segments})
-		$0]]></text>
-		</snippet>
-		
-		<snippet>
-		<tag>clear</tag>
-		<description>love.graphics.clear</description>
-		<text><![CDATA[love.graphics.clear()
-		$0]]></text>
-		</snippet>
+<snippet>
+<tag>arc</tag>
+<description>love.graphics.arc</description>
+<text><![CDATA[love.graphics.arc(${1:mode}, ${2:x}, ${3:y}, ${4:radius}, ${5:angle1}, ${6:angle2}, ${7:segments})
+$0]]></text>
+</snippet>
 
-		<snippet>
-		<tag>line</tag> 
-		<description>love.graphics.line(x1, y1, x2, y2, ...)</description>
-		<text><![CDATA[love.graphics.line(${1:x},${2:y},${3:x},${4:y, ...})
-		$0]]></text>
-		</snippet>
-		
-		<snippet>
-		<tag>point</tag> 
-		<description>love.graphics.point</description>
-		<text><![CDATA[love.graphics.point(${1:x}, ${2:y})
-		$0]]></text>
-		</snippet>
-		
-		<snippet>
-		<tag>polygon</tag> 
-		<description>love.graphics.polygon</description>
-		<text><![CDATA[love.graphics.polygon(${1:mode}, ${2:vertices})
-		$0]]></text>
-		</snippet>
+<snippet>
+<tag>circle</tag>
+<description>love.graphics.circle</description>
+<text><![CDATA[love.graphics.circle(${1:mode}, ${2:x}, ${3:y}, ${4:radius}, ${5:segments})
+$0]]></text>
+</snippet>
 
-		<snippet>
-		<tag>rectangle</tag> 
-		<description>love.graphics.rectangle(mode, x, y, width, height)</description>
-		<text><![CDATA[love.graphics.rectangle(${1:mode}, ${2:x}, ${3:y}, ${4:width}, ${5:height})
-		$0]]></text>
-		</snippet>
-		
-		<snippet>
-		<tag>present</tag> 
-		<description>love.graphics.present()</description>
-		<text><![CDATA[love.graphics.present()
-		$0]]></text>
-		</snippet>
+<snippet>
+<tag>clear</tag>
+<description>love.graphics.clear</description>
+<text><![CDATA[love.graphics.clear()
+$0]]></text>
+</snippet>
+	<snippet>
+<tag>line</tag> 
+<description>love.graphics.line(x1, y1, x2, y2, ...)</description>
+<text><![CDATA[love.graphics.line(${1:x},${2:y},${3:x},${4:y, ...})
+$0]]></text>
+</snippet>
 
+<snippet>
+<tag>point</tag> 
+<description>love.graphics.point</description>
+<text><![CDATA[love.graphics.point(${1:x}, ${2:y})
+$0]]></text>
+</snippet>
 
-		<snippet>
-		<tag>print</tag> 
-		<description>love.graphics.print(text, x, y, ...)</description>
-		<text><![CDATA[love.graphics.print(${1:text}, ${2:x}, ${3:y, ...})
-		$0]]></text>
-		</snippet>
+<snippet>
+<tag>polygon</tag> 
+<description>love.graphics.polygon</description>
+<text><![CDATA[love.graphics.polygon(${1:mode}, ${2:vertices})
+$0]]></text>
+</snippet>
+	<snippet>
+<tag>rectangle</tag> 
+<description>love.graphics.rectangle(mode, x, y, width, height)</description>
+<text><![CDATA[love.graphics.rectangle(${1:mode}, ${2:x}, ${3:y}, ${4:width}, ${5:height})
+$0]]></text>
+</snippet>
 
-		<snippet>
-		<tag>printf</tag> 
-		<description>love.graphics.printf(text, x, y, limit, align, ...)</description>
-		<text><![CDATA[love.graphics.printf(${1:text}, ${2:x}, ${3:y}, ${4:x_limit}, ${5:align, ...})
-		$0]]></text>
-		</snippet>
-		
-		<snippet>
-		<tag>draw</tag> 
-		<description>love.graphics.draw(drawable, x, y, ...)</description>
-		<text><![CDATA[love.graphics.draw(${1:drawable}, ${2:x}, ${3:y, ...})
-		$0]]></text>
-		</snippet>
-		
+<snippet>
+<tag>present</tag> 
+<description>love.graphics.present()</description>
+<text><![CDATA[love.graphics.present()
+$0]]></text>
+</snippet>
+	<snippet>
+<tag>print</tag> 
+<description>love.graphics.print(text, x, y, ...)</description>
+<text><![CDATA[love.graphics.print(${1:text}, ${2:x}, ${3:y, ...})
+$0]]></text>
+</snippet>
+	<snippet>
+<tag>printf</tag> 
+<description>love.graphics.printf(text, x, y, limit, align, ...)</description>
+<text><![CDATA[love.graphics.printf(${1:text}, ${2:x}, ${3:y}, ${4:x_limit}, ${5:align, ...})
+$0]]></text>
+</snippet>
+
+<snippet>
+<tag>draw</tag> 
+<description>love.graphics.draw(drawable, x, y, ...)</description>
+<text><![CDATA[love.graphics.draw(${1:drawable}, ${2:x}, ${3:y, ...})
+$0]]></text>
+</snippet>
+
 		<snippet>
 <tag>newcanvas</tag>
 <description>love.graphics.newCanvas(...)</description>
