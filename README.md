@@ -15,7 +15,7 @@ An advanced LÖVE snippet system along with syntax highlighting & custom command
 
 		point + tab	>> love.graphics.point(x, y)
         
-- Edit functions by tabbing through them (dollar sign is caret)
+- Edit functions by tabbing through them (dollar sign represents caret position)
 
 		love.graphics.point($x, y) + tab >>  love.graphics.point(x, $y)
         
