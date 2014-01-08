@@ -1,5 +1,5 @@
 <snippet>
-<tag>clear</tag>
+<tag>_clear</tag>
 <description>love.event.clear()</description>
 <text><![CDATA[love.event.clear()
 $0]]></text>
@@ -20,7 +20,7 @@ $0]]></text>
 </snippet>
 
 <snippet>
-<tag>push</tag>
+<tag>_push</tag>
 <description>love.event.push(e, a, b, c, ...)</description>
 <text><![CDATA[love.event.push(${1:event_name, ...})
 $0]]></text>

@@ -6,7 +6,7 @@
       love.getWidth (Window vs Graphics, Seems to be the same thing, Window seems to be the right one to use)
       love.isDown   (mouse vs keyboard. No good solution here. Maybe leave the mouse/keyboard part as a variable?)
       love.isVisible  (window vs mouse, no clear solution here. Maybe make it so keyboard and mouse have different conventions?)
-      love.load   (fs load vs love.load. Love.* already uses underscore, no problem here)
+      love.load   (load.filesystem vs love.load Love.* already uses underscore, no problem here)
       love.push (love.event vs love.graphics, they do different things. Can be resolved by having events use underscore)
       love.quit (love.event vs love.quit, not sure how to fix. Perhaps dot instead of underscore?)
       love.setPosition (audio vs mouse, not sure how to resolve)
