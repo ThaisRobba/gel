@@ -1,4 +1,4 @@
-gel
+GËL
 ===
 
 An advanced LÖVE snippet system along with syntax highlighting & custom commands for Gedit.
@@ -9,23 +9,38 @@ An advanced LÖVE snippet system along with syntax highlighting & custom command
 
 The following features are included in it:
 - Add brackets around selected code
+
 		isGorgeous 	>> ({"['isGorgeous']"})
+        
 - Input functions & commands through shorthand and tab
+
 		point + tab	>> love.graphics.point(x, y)
+        
 - Edit functions by tabbing through them (dollar sign is caret)
+
 		love.graphics.point($x, y) + tab >>  love.graphics.point(x, $y)
+        
 - Helpful definitions that you can tab through when using snippets
+
 		nquad + tab >> love.graphics.newQuad(x, y, width, height, width_of_the_image, height_of_the_image)
+        
 - View all of LÖVE's possible commands with:
+
 		Ctrl+Spacebar
+        
 - Run the game from Gedit with a shortcut
+
 		Ctrl+L 	>>  Your_Game :D
+        
 - Run the script within Lua from Gedit with a shortcut
+
 		Shift+Ctrl+L 	>>  Lunar Power! :D
+        
 - Search LÖVE's wiki in a browser from Gedit with a shortcut
+
 		Select code >> Ctrl+Shift+F 	>>  Wiki Search :D
+        
 - Proper LÖVE syntax highlighting
-		<3
 
 ##Installation
 ###Dependencies
@@ -94,8 +109,8 @@ This uses the most obvious word from a command. For example:
 
 		point + tab 				>> love.graphics.point(x, y)
 		print + tab 				>> love.graphics.print(text, x, y, ...)
-		newparticlesystem + tab	>> love.graphics.newParticleSystem(image, buffer)
-		_draw	+ tab					>> function love.draw() end
+		newparticlesystem + tab		>> love.graphics.newParticleSystem(image, buffer)
+		_draw	+ tab				>> function love.draw() end
 		
 As you can see, this makes it a little easier and a little faster to code.
 You might be wondering what is the 'n' in the particlesystem command or why is there an ellipsis in the print output. Read on below.
@@ -114,9 +129,9 @@ Some functions accept many different arguments but, usually, only a few are used
 Due to conflicts of love callbacks with love.graphics, the former functions must be done with an underscore before them.
 This means:
 
-		_draw >> function love.draw() end
-		_errhand >> function love.errhand(msg) end
-		_focus >> function love.focus(f) end
+		_draw 		>> function love.draw() end
+		_errhand 	>> function love.errhand(msg) end
+		_focus 		>> function love.focus(f) end
 
 And so on, and so forth. Visit http://www.love2d.org/wiki/love for the list of callbacks.
 
@@ -146,9 +161,9 @@ Here is a list with all the exceptions, the one on the left being the favored on
 Having the code selected, use one of the following shortcuts:
 
 		Ctrl+'	>>	'gorgeous'
-		Ctrl+1	>> "gorgeous"
-		Ctrl+2	>> (gorgeous)
-		Ctrl+3	>> [gorgeous]
+		Ctrl+1	>>	"gorgeous"
+		Ctrl+2	>>	(gorgeous)
+		Ctrl+3	>>	[gorgeous]
 		Ctrl+4	>>	{gorgeous}
 
 ###Hey I think something something
