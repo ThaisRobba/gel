@@ -1,4 +1,25 @@
 <snippet>
+<tag>_conf</tag> 
+<description>function love.conf(t)</description>
+<text><![CDATA[function love.conf(t)
+    t.identity = ${1:nil}                   -- The name of the save directory (string)
+    t.version = "${2:0.9.0}"                -- The LÖVE version this game was made for (string)
+    t.console = ${3:false}                  -- Attach a console (boolean, Windows only)
+
+    t.window.title = "${4:Untitled}"        -- The window title (string)
+    t.window.icon = ${5:nil}                -- Filepath to an image to use as the window's icon (string)
+    t.window.width = ${6:800}               -- The window width (number)
+    t.window.height = ${7:600}              -- The window height (number)
+    t.window.borderless = ${8:false}        -- Remove all border visuals from the window (boolean)
+    t.window.resizable = ${9:false}         -- Let the window be user-resizable (boolean)
+    t.window.minwidth = ${10:1}              -- Minimum window width if the window is resizable (number)
+    t.window.minheight = ${11:1}             -- Minimum window height if the window is resizable (number)
+    t.window.fullscreen = ${12:false}        -- Enable fullscreen (boolean)
+    t.window.fullscreentype = "${13:normal}" -- Standard fullscreen or desktop fullscreen mode (string)
+    t.window.vsync = ${14:true}              -- Enable vertical sync (boolean)
+    t.window.fsaa = ${15:0}                  -- The number of samples to use with multi-sampled antialiasing (number)
+    t.window.display = ${16:1}               -- Index of the monitor to show the window in (number)
+
 <tag>_update</tag> 
 <description>function love.update(dt)</description>
 <text><![CDATA[function love.update(dt)
