@@ -1,466 +1,400 @@
 <snippet>
 <tag>origin</tag>
 <description>love.graphics.origin()</description>
-<text><![CDATA[love.graphics.origin()
-$0]]></text>
+<text><![CDATA[love.graphics.origin()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>pop</tag>
 <description>love.graphics.pop()</description>
-<text><![CDATA[love.graphics.pop()
-$0]]></text>
+<text><![CDATA[love.graphics.pop()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>push</tag>
 <description>love.graphics.push()</description>
-<text><![CDATA[love.graphics.push()
-$0]]></text>
+<text><![CDATA[love.graphics.push()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>rotate</tag>
 <description>love.graphics.rotate(angle)</description>
-<text><![CDATA[love.graphics.rotate(${1:angle})
-$0]]></text>
+<text><![CDATA[love.graphics.rotate(${1:angle})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>scale</tag>
 <description>love.graphics.scale(x_scale, y_scale)</description>
-<text><![CDATA[love.graphics.scale(${1:x_scale}, ${2:y_scale})
-$0]]></text>
+<text><![CDATA[love.graphics.scale(${1:x_scale}, ${2:y_scale})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>shear</tag>
 <description>love.graphics.shear(x_shear, y_shear)</description>
-<text><![CDATA[love.graphics.shear(${1:x_shear}, ${2:y_shear})
-$0]]></text>
+<text><![CDATA[love.graphics.shear(${1:x_shear}, ${2:y_shear})$0]]></text>
 </snippet>		
 
 <snippet>
 <tag>translate</tag>
 <description>love.graphics.translate(x_translation, y_translation)</description>
-<text><![CDATA[love.graphics.translate(${1:x_translation}, ${2:y_translation})
-$0]]></text>
+<text><![CDATA[love.graphics.translate(${1:x_translation}, ${2:y_translation})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>arc</tag>
 <description>love.graphics.arc</description>
-<text><![CDATA[love.graphics.arc(${1:mode}, ${2:x}, ${3:y}, ${4:radius}, ${5:angle1}, ${6:angle2}, ${7:segments})
-$0]]></text>
+<text><![CDATA[love.graphics.arc(${1:mode}, ${2:x}, ${3:y}, ${4:radius}, ${5:angle1}, ${6:angle2}, ${7:segments})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>circle</tag>
 <description>love.graphics.circle</description>
-<text><![CDATA[love.graphics.circle(${1:mode}, ${2:x}, ${3:y}, ${4:radius}, ${5:segments})
-$0]]></text>
+<text><![CDATA[love.graphics.circle(${1:mode}, ${2:x}, ${3:y}, ${4:radius}, ${5:segments})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>clear</tag>
 <description>love.graphics.clear</description>
-<text><![CDATA[love.graphics.clear()
-$0]]></text>
+<text><![CDATA[love.graphics.clear()$0]]></text>
 </snippet>
 	<snippet>
 <tag>line</tag> 
 <description>love.graphics.line(x1, y1, x2, y2, ...)</description>
-<text><![CDATA[love.graphics.line(${1:x},${2:y},${3:x},${4:y, ...})
-$0]]></text>
+<text><![CDATA[love.graphics.line(${1:x},${2:y},${3:x},${4:y, ...})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>point</tag> 
 <description>love.graphics.point</description>
-<text><![CDATA[love.graphics.point(${1:x}, ${2:y})
-$0]]></text>
+<text><![CDATA[love.graphics.point(${1:x}, ${2:y})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>polygon</tag> 
 <description>love.graphics.polygon</description>
-<text><![CDATA[love.graphics.polygon(${1:mode}, ${2:vertices})
-$0]]></text>
+<text><![CDATA[love.graphics.polygon(${1:mode}, ${2:vertices})$0]]></text>
 </snippet>
 	<snippet>
 <tag>rectangle</tag> 
 <description>love.graphics.rectangle(mode, x, y, width, height)</description>
-<text><![CDATA[love.graphics.rectangle(${1:mode}, ${2:x}, ${3:y}, ${4:width}, ${5:height})
-$0]]></text>
+<text><![CDATA[love.graphics.rectangle(${1:mode}, ${2:x}, ${3:y}, ${4:width}, ${5:height})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>present</tag> 
 <description>love.graphics.present()</description>
-<text><![CDATA[love.graphics.present()
-$0]]></text>
+<text><![CDATA[love.graphics.present()$0]]></text>
 </snippet>
 	<snippet>
 <tag>print</tag> 
 <description>love.graphics.print(text, x, y, ...)</description>
-<text><![CDATA[love.graphics.print(${1:text}, ${2:x}, ${3:y, ...})
-$0]]></text>
+<text><![CDATA[love.graphics.print(${1:text}, ${2:x}, ${3:y, ...})$0]]></text>
 </snippet>
 	<snippet>
 <tag>printf</tag> 
 <description>love.graphics.printf(text, x, y, limit, align, ...)</description>
-<text><![CDATA[love.graphics.printf(${1:text}, ${2:x}, ${3:y}, ${4:x_limit}, ${5:align, ...})
-$0]]></text>
+<text><![CDATA[love.graphics.printf(${1:text}, ${2:x}, ${3:y}, ${4:x_limit}, ${5:align, ...})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>draw</tag> 
 <description>love.graphics.draw(drawable, x, y, ...)</description>
-<text><![CDATA[love.graphics.draw(${1:drawable}, ${2:x}, ${3:y, ...})
-$0]]></text>
+<text><![CDATA[love.graphics.draw(${1:drawable}, ${2:x}, ${3:y, ...})$0]]></text>
 </snippet>
 
 		<snippet>
 <tag>newcanvas</tag>
 <description>love.graphics.newCanvas(...)</description>
-<text><![CDATA[love.graphics.newCanvas(${1:width, height, texture_type})
-$0]]></text>
+<text><![CDATA[love.graphics.newCanvas(${1:width, height, texture_type})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newfont</tag>
 <description>love.graphics.newFont(data, size)</description>
-<text><![CDATA[love.graphics.newFont(${1:data}, ${2:size})
-$0]]></text>
+<text><![CDATA[love.graphics.newFont(${1:data}, ${2:size})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setfont</tag>
 <description>love.graphics.setFont(font)</description>
-<text><![CDATA[love.graphics.setFont(${1:font})
-$0]]></text>
+<text><![CDATA[love.graphics.setFont(${1:font})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newimage</tag> 
 <description>love.graphics.newImage(file)</description>
-<text><![CDATA[love.graphics.newImage(${1:file})
-$0]]></text>
+<text><![CDATA[love.graphics.newImage(${1:file})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newimagefont</tag> 
 <description>love.graphics.newImageFont(file, glyphs)</description>
-<text><![CDATA[love.graphics.newImageFont(${1:file], ${2:glyphs})
-$0]]></text>
+<text><![CDATA[love.graphics.newImageFont(${1:file], ${2:glyphs})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>newmesh</tag>
 <description>love.graphics.newMesh(vertices, image, mode)</description>
-<text><![CDATA[love.graphics.newMesh(${1:vertices}, ${2:image}, ${3:mode})
-$0]]></text>
+<text><![CDATA[love.graphics.newMesh(${1:vertices}, ${2:image}, ${3:mode})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>newparticlesystem</tag>
 <description>love.graphics.newParticleSystem(image, buffer)</description>
-<text><![CDATA[love.graphics.newParticleSystem(${1:image}, ${2:buffer})
-$0]]></text>
+<text><![CDATA[love.graphics.newParticleSystem(${1:image}, ${2:buffer})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>newquad</tag>
 <description>love.graphics.newQuad(x, y, width, height, sw, sh)</description>
-<text><![CDATA[love.graphics.newQuad(${1:x}, ${2:y}, ${3:width}, ${4:height}, ${5:image_width}, ${6:image_height})
-$0]]></text>
+<text><![CDATA[love.graphics.newQuad(${1:x}, ${2:y}, ${3:width}, ${4:height}, ${5:image_width}, ${6:image_height})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>newscreenshot</tag>
 <description>love.graphics.newScreenshot(copyAlpha)</description>
-<text><![CDATA[love.graphics.newScreenshot(${1:copyAlpha})
-$0]]></text>
+<text><![CDATA[love.graphics.newScreenshot(${1:copyAlpha})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>newshader</tag>
 <description>love.graphics.newShader(pixelcode, vertexcode)</description>
-<text><![CDATA[love.graphics.newShader(${1:pixel_data},${2:vertex_data})
-$0]]></text>
+<text><![CDATA[love.graphics.newShader(${1:pixel_data},${2:vertex_data})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>newspritebatch</tag>
 <description>love.graphics.newSpriteBatch(image, size, usagehint)</description>
-<text><![CDATA[love.graphics.newSpriteBatch(${1:image}, ${2:size}, ${3:usage_hint})
-$0]]></text>
+<text><![CDATA[love.graphics.newSpriteBatch(${1:image}, ${2:size}, ${3:usage_hint})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getbackgroundcolor</tag>
 <description>love.graphics.getBackgroundColor()</description>
-<text><![CDATA[love.graphics.getBackgroundColor()
-$0]]></text>
+<text><![CDATA[love.graphics.getBackgroundColor()$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>setbackgroundcolor</tag>
 <description>love.graphics.setBackgroundColor(red, green, blue, alpha)</description>
-<text><![CDATA[love.graphics.setBackgroundColor(${1:Red}, ${2:Green}, ${3:Blue}, ${4:Alpha})
-$0]]></text>
+<text><![CDATA[love.graphics.setBackgroundColor(${1:Red}, ${2:Green}, ${3:Blue}, ${4:Alpha})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getblend</tag>
 <description>love.graphics.getBlendMode()</description>
-<text><![CDATA[love.graphics.getBlendMode()
-$0]]></text>
+<text><![CDATA[love.graphics.getBlendMode()$0]]></text>
 </snippet>
 <snippet>
 <tag>setblend</tag>
 <description>love.graphics.setBlendMode(mode)</description>
-<text><![CDATA[love.graphics.setBlendMode($1)
-$0]]></text>
+<text><![CDATA[love.graphics.setBlendMode($1)$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getcanvas</tag>
 <description>love.graphics.getCanvas()</description>
-<text><![CDATA[love.graphics.getCanvas()
-$0]]></text>
+<text><![CDATA[love.graphics.getCanvas()$0]]></text>
 </snippet>
 <snippet>
 <tag>setcanvas</tag>
 <description>love.graphics.setCanvas(canvas)</description>
-<text><![CDATA[love.graphics.setCanvas(${1:canvas})
-$0]]></text>
+<text><![CDATA[love.graphics.setCanvas(${1:canvas})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getcolor</tag>
 <description>love.graphics.getColor()</description>
-<text><![CDATA[love.graphics.getColor()
-$0]]></text>
+<text><![CDATA[love.graphics.getColor()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setcolor</tag>
 <description>love.graphics.setColor(Red, Green, Blue, Alpha)</description>
-<text><![CDATA[love.graphics.setColor(${1:Red}, ${2:Green}, ${3:Blue}, ${4:Alpha})
-$0]]></text>
+<text><![CDATA[love.graphics.setColor(${1:Red}, ${2:Green}, ${3:Blue}, ${4:Alpha})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>setcolormask</tag>
 <description>love.graphics.setColorMask(Red, Green, Blue, Alpha)</description>
-<text><![CDATA[love.graphics.setColorMask(${1:Red}, ${2:Green}, ${3:Blue}, ${4:Alpha})
-$0]]></text>
+<text><![CDATA[love.graphics.setColorMask(${1:Red}, ${2:Green}, ${3:Blue}, ${4:Alpha})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>getmask</tag>
 <description>love.graphics.getColorMask()</description>
-<text><![CDATA[love.graphics.getColorMask()
-$0]]></text>
+<text><![CDATA[love.graphics.getColorMask()$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>getfilter</tag>
 <description>love.graphics.getDefaultFilter()</description>
-<text><![CDATA[love.graphics.getDefaultFilter()
-$0]]></text>
+<text><![CDATA[love.graphics.getDefaultFilter()$0]]></text>
 </snippet>
 <snippet>
 <tag>setfilter</tag>
 <description>love.graphics.setDefaultFilter(min, mag, anisotropy)</description>
-<text><![CDATA[love.graphics.setDefaultFilter(${1:min}, ${2:mag}, ${3:anisotropy})
-$0]]></text>
+<text><![CDATA[love.graphics.setDefaultFilter(${1:min}, ${2:mag}, ${3:anisotropy})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getfont</tag>
 <description>love.graphics.getFont()</description>
-<text><![CDATA[love.graphics.getFont()
-$0]]></text>
+<text><![CDATA[love.graphics.getFont()$0]]></text>
 </snippet>
 <snippet>
 <tag>setfont</tag>
 <description>love.graphics.setFont(font)</description>
-<text><![CDATA[love.graphics.setFont(${1:font})
-$0]]></text>
+<text><![CDATA[love.graphics.setFont(${1:font})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getlinejoin</tag>
 <description>love.graphics.getLineJoin()</description>
-<text><![CDATA[love.graphics.getLineJoin()
-$0]]></text>
+<text><![CDATA[love.graphics.getLineJoin()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getlinestyle</tag>
 <description>love.graphics.getLineStyle()</description>
-<text><![CDATA[love.graphics.getLineStyle()
-$0]]></text>
+<text><![CDATA[love.graphics.getLineStyle()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getlinewidth</tag>
 <description>love.graphics.getLineWidth()</description>
-<text><![CDATA[love.graphics.getLineWidth()
-$0]]></text>
+<text><![CDATA[love.graphics.getLineWidth()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setlinejoin</tag>
 <description>love.graphics.setLineJoin(join)</description>
-<text><![CDATA[love.graphics.setLineJoin(${1:join})
-$0]]></text>
+<text><![CDATA[love.graphics.setLineJoin(${1:join})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setlinestyle</tag>
 <description>love.graphics.setLineStyle(style)</description>
-<text><![CDATA[love.graphics.setLineStyle(${1:style})
-$0]]></text>
+<text><![CDATA[love.graphics.setLineStyle(${1:style})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setlinewidth</tag>
 <description>love.graphics.setLineWidth(width)</description>
-<text><![CDATA[love.graphics.setLineWidth(${1:width})
-$0]]></text>
+<text><![CDATA[love.graphics.setLineWidth(${1:width})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>getmaximagesize</tag> 
 <description>love.graphics.getMaxImageSize()</description>
-<text><![CDATA[love.graphics.getMaxImageSize()
-$0]]></text>
+<text><![CDATA[love.graphics.getMaxImageSize()$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>getmaxpointsize</tag> 
 <description>love.graphics.getMaxPointSize()</description>
-<text><![CDATA[love.graphics.getMaxPointSize()
-$0]]></text>
+<text><![CDATA[love.graphics.getMaxPointSize()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getpointsize</tag>
 <description>love.graphics.getPointSize()</description>
-<text><![CDATA[love.graphics.getPointSize()
-$0]]></text>
+<text><![CDATA[love.graphics.getPointSize()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getpointstyle</tag>
 <description>love.graphics.getPointStyle()</description>
-<text><![CDATA[love.graphics.getPointStyle()
-$0]]></text>
+<text><![CDATA[love.graphics.getPointStyle()$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>setpointsize</tag>
 <description>love.graphics.setPointSize(size)</description>
-<text><![CDATA[love.graphics.setPointSize(${1:size})
-$0]]></text>
+<text><![CDATA[love.graphics.setPointSize(${1:size})$0]]></text>
 </snippet>
 <snippet>
 <tag>setpointstyle</tag>
 <description>love.graphics.setPointStyle(style)</description>
-<text><![CDATA[love.graphics.setPointStyle(${1:style})
-$0]]></text>
+<text><![CDATA[love.graphics.setPointStyle(${1:style})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>getrendererinfo</tag>
 <description>love.graphics.getRendererInfo()</description>
-<text><![CDATA[love.graphics.getRendererInfo()
-$0]]></text>
+<text><![CDATA[love.graphics.getRendererInfo()$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>getscissor</tag>
 <description>love.graphics.getScissor()</description>
-<text><![CDATA[love.graphics.getScissor()
-$0]]></text>
+<text><![CDATA[love.graphics.getScissor()$0]]></text>
 </snippet>
 <snippet>
 <tag>setscissor</tag>
 <description>love.graphics.setScissor(x, y, width, height)</description>
-<text><![CDATA[love.graphics.setScissor(${1:x}, ${2:y}, ${3:width}, ${4:height})
-$0]]></text>
+<text><![CDATA[love.graphics.setScissor(${1:x}, ${2:y}, ${3:width}, ${4:height})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getshader</tag>
 <description>love.graphics.getShader()</description>
-<text><![CDATA[love.graphics.getShader()
-$0]]></text>
+<text><![CDATA[love.graphics.getShader()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>issupported</tag>
 <description>love.graphics.isSupported(support1, support2, support3, ...)</description>
-<text><![CDATA[love.graphics.isSupported(${1:support1...})
-$0]]></text>
+<text><![CDATA[love.graphics.isSupported(${1:support1...})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>reset</tag> 
 <description>love.graphics.reset()</description>
-<text><![CDATA[love.graphics.reset()
-$0]]></text>
+<text><![CDATA[love.graphics.reset()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setstencil</tag> 
 <description>love.graphics.setStencil(stencilFunction)</description>
-<text><![CDATA[love.graphics.setStencil(${1:stencil_function})
-$0]]></text>
+<text><![CDATA[love.graphics.setStencil(${1:stencil_function})$0]]></text>
 </snippet>			
 
 <snippet>
 <tag>setinvertedstencil</tag> 
 <description>love.graphics.setInvertedStencil(stencilFunction)</description>
-<text><![CDATA[love.graphics.setInvertedStencil(${1:stencil_function})
-$0]]></text>
+<text><![CDATA[love.graphics.setInvertedStencil(${1:stencil_function})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getdimensions</tag>
 <description>love.graphics.getDimensions()</description>
-<text><![CDATA[love.graphics.getDimensions()
-$0]]></text>
+<text><![CDATA[love.graphics.getDimensions()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getheight</tag>
 <description>love.graphics.getHeight()</description>
-<text><![CDATA[love.graphics.getHeight()
-$0]]></text>
+<text><![CDATA[love.graphics.getHeight()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getwidth</tag>
 <description>love.graphics.getWidth()</description>
-<text><![CDATA[love.graphics.getWidth()
-$0]]></text>
+<text><![CDATA[love.graphics.getWidth()$0]]></text>
 </snippet>

@@ -1,42 +1,36 @@
 <snippet>
 <tag>_clear</tag>
 <description>love.event.clear()</description>
-<text><![CDATA[love.event.clear()
-$0]]></text>
+<text><![CDATA[love.event.clear()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>poll</tag>
 <description>love.event.poll()</description>
-<text><![CDATA[love.event.poll()
-$0]]></text>
+<text><![CDATA[love.event.poll()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>pump</tag>
 <description>love.event.pump()</description>
-<text><![CDATA[love.event.pump()
-$0]]></text>
+<text><![CDATA[love.event.pump()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>_push</tag>
 <description>love.event.push(e, a, b, c, ...)</description>
-<text><![CDATA[love.event.push(${1:event_name, ...})
-$0]]></text>
+<text><![CDATA[love.event.push(${1:event_name, ...})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>quit</tag>
 <description>love.event.quit()</description>
-<text><![CDATA[love.event.quit()
-$0]]></text>
+<text><![CDATA[love.event.quit()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>wait</tag>
 <description>love.event.wait()</description>
-<text><![CDATA[love.event.wait()
-$0]]></text>
+<text><![CDATA[love.event.wait()$0]]></text>
 </snippet>
 

@@ -1,15 +1,13 @@
 <snippet>
 <tag>newglyphdata</tag>
 <description>love.font.newGlyphData(rasterizer, glyph)</description>
-<text><![CDATA[love.font.newGlyphData(${1:rasterizer}, ${2:glyph_char_code})
-$0]]></text>
+<text><![CDATA[love.font.newGlyphData(${1:rasterizer}, ${2:glyph_char_code})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newrasterizer</tag>
 <description>love.font.newRasterizer(imageData, glyphs)</description>
-<text><![CDATA[love.font.newRasterizer(${1:imageData}, ${2:glyphs})
-$0]]></text>
+<text><![CDATA[love.font.newRasterizer(${1:imageData}, ${2:glyphs})$0]]></text>
 </snippet>
 
 

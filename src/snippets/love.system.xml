@@ -1,35 +1,30 @@
 <snippet>
 <tag>getclipboardtext</tag>
 <description>love.system.getClipboardText()</description>
-<text><![CDATA[love.system.getClipboardText()
-$0]]></text>
+<text><![CDATA[love.system.getClipboardText()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getos</tag>
 <description>love.system.getOS()</description>
-<text><![CDATA[love.system.getOS()
-$0]]></text>
+<text><![CDATA[love.system.getOS()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getpowerinfo</tag>
 <description>love.system.getPowerInfo()</description>
-<text><![CDATA[love.system.getPowerInfo()
-$0]]></text>
+<text><![CDATA[love.system.getPowerInfo()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getprocessorcount</tag>
 <description>love.system.getProcessorCount()</description>
-<text><![CDATA[love.system.getProcessorCount()
-$0]]></text>
+<text><![CDATA[love.system.getProcessorCount()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setclipboardtext</tag>
 <description>love.system.setClipboardText(text)</description>
-<text><![CDATA[love.system.setClipboardText(${1:text})
-$0]]></text>
+<text><![CDATA[love.system.setClipboardText(${1:text})$0]]></text>
 </snippet>
 

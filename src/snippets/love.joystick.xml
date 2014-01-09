@@ -78,21 +78,18 @@ end]]></text>
 <snippet>
 <tag>getjoystickcount</tag>
 <description>love.joystick.getJoystickCount()</description>
-<text><![CDATA[love.joystick.getJoystickCount()
-$0]]></text>
+<text><![CDATA[love.joystick.getJoystickCount()$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>getjoystick</tag>
 <description>love.joystick.getJoystick()</description>
-<text><![CDATA[love.joystick.getJoystick()
-$0]]></text>
+<text><![CDATA[love.joystick.getJoystick()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setgamepadmapping</tag> 
 <description>love.joystick.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)</description>
-<text><![CDATA[love.joystick.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)
-$0]]></text>
+<text><![CDATA[love.joystick.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)$0]]></text>
 </snippet>

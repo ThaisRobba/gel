@@ -1,21 +1,18 @@
 <snippet>
 <tag>iscompressed</tag>
 <description>love.image.isCompressed(filename)</description>
-<text><![CDATA[love.image.isCompressed(${1:filename})
-$0]]></text>
+<text><![CDATA[love.image.isCompressed(${1:filename})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newCompressedData</tag>
 <description>love.image.newCompressedData(filename)</description>
-<text><![CDATA[love.image.newCompressedData(${1:filename})
-$0]]></text>
+<text><![CDATA[love.image.newCompressedData(${1:filename})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newImageData</tag>
 <description>love.image.newImageData(filename)</description>
-<text><![CDATA[love.image.newImageData(${1:filename or width, height})
-$0]]></text>
+<text><![CDATA[love.image.newImageData(${1:filename or width, height})$0]]></text>
 </snippet>
 

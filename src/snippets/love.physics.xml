@@ -1,147 +1,126 @@
 <snippet>
 <tag>getdistance</tag>
 <description>love.physics.getDistance(fixture1, fixture2)</description>
-<text><![CDATA[love.physics.getDistance(${1:fixture1}, ${2:fixture2})
-$0]]></text>
+<text><![CDATA[love.physics.getDistance(${1:fixture1}, ${2:fixture2})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getmeter</tag>
 <description>love.physics.getMeter()</description>
-<text><![CDATA[love.physics.getMeter()
-$0]]></text>
+<text><![CDATA[love.physics.getMeter()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newbody</tag>
 <description>love.physics.newBody(world, x, y, type)</description>
-<text><![CDATA[love.physics.newBody(${1:world}, ${2:x}, ${3:y}, ${4:type})
-$0]]></text>
+<text><![CDATA[love.physics.newBody(${1:world}, ${2:x}, ${3:y}, ${4:type})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newchainshape</tag>
 <description>love.physics.newChainShape(loop, x1, y1, x2, y2, ... )</description>
-<text><![CDATA[love.physics.newChainShape(${1:loop}, ${2:x1}, ${3:y1}, ${4:x2}, ${5:y2})
-$0]]></text>
+<text><![CDATA[love.physics.newChainShape(${1:loop}, ${2:x1}, ${3:y1}, ${4:x2}, ${5:y2})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newcircleshape</tag>
 <description>love.physics.newCircleShape(radius)</description>
-<text><![CDATA[love.physics.newCircleShape(${1:radius})
-$0]]></text>
+<text><![CDATA[love.physics.newCircleShape(${1:radius})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newdistancejoint</tag>
 <description>love.physics.newDistanceJoint(body1, body2, x1, y1, x2, y2, collideConnected)</description>
-<text><![CDATA[love.physics.newDistanceJoint(${1:body1}, ${2:body2}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2}, ${7:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newDistanceJoint(${1:body1}, ${2:body2}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2}, ${7:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newedgeshape</tag>
 <description>love.physics.newEdgeShape(x1, y1, x2, y2)</description>
-<text><![CDATA[love.physics.newEdgeShape(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2})
-$0]]></text>
+<text><![CDATA[love.physics.newEdgeShape(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newfixture</tag>
 <description>love.physics.newFixture(body, shape, density)</description>
-<text><![CDATA[love.physics.newFixture(${1:body}, ${2:shape}, ${3:density})
-$0]]></text>
+<text><![CDATA[love.physics.newFixture(${1:body}, ${2:shape}, ${3:density})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newfrictionjoint</tag>
 <description>love.physics.newFrictionJoint(body1, body2, x1, y1, x2, y2, collideConnected)</description>
-<text><![CDATA[love.physics.newFrictionJoint(${1:body1}, ${2:body2}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2}, ${7:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newFrictionJoint(${1:body1}, ${2:body2}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2}, ${7:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newgearjoint</tag>
 <description>love.physics.newGearJoint(joint1, joint2, ratio, collideConnected)</description>
-<text><![CDATA[love.physics.newGearJoint(${1:joint1}, ${2:joint2}, ${3:ratio}, ${4:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newGearJoint(${1:joint1}, ${2:joint2}, ${3:ratio}, ${4:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newmousejoint</tag>
 <description>love.physics.newMouseJoint(body, x, y)</description>
-<text><![CDATA[love.physics.newMouseJoint(${1:body}, ${2:x}, ${3:y})
-$0]]></text>
+<text><![CDATA[love.physics.newMouseJoint(${1:body}, ${2:x}, ${3:y})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newpolygonshape</tag>
 <description>love.physics.newPolygonShape(x1, y1, x2, y2...)</description>
-<text><![CDATA[love.physics.newPolygonShape(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2, ...})
-$0]]></text>
+<text><![CDATA[love.physics.newPolygonShape(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2, ...})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newprismaticjoint</tag>
 <description>love.physics.newPrismaticJoint(body1, body2, x, y, ax, ay, collideConnected)</description>
-<text><![CDATA[love.physics.newPrismaticJoint(${1:body1}, ${2:body2}, ${3:x1}, ${4:y1}, ${5:ax}, ${6:ay}, ${7:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newPrismaticJoint(${1:body1}, ${2:body2}, ${3:x1}, ${4:y1}, ${5:ax}, ${6:ay}, ${7:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newpulleyjoint</tag>
 <description>love.physics.newPulleyJoint(body1, body2, gx1, gy1, gx2, gy2, x1, y1, x2, y2, collideConnected)</description>
-<text><![CDATA[love.physics.newPulleyJoint(${1:body1}, ${2:body2}, ${3:gx1}, ${4:gy1}, ${5:gx2}, ${6:gy2}, ${7:x1}, ${8:y1}, ${9:x2}, ${10:y2}, ${11:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newPulleyJoint(${1:body1}, ${2:body2}, ${3:gx1}, ${4:gy1}, ${5:gx2}, ${6:gy2}, ${7:x1}, ${8:y1}, ${9:x2}, ${10:y2}, ${11:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newrectangleshape</tag>
 <description>love.physics.newRectangleShape(width, height)</description>
-<text><![CDATA[love.physics.newRectangleShape(${1:width}, ${2:height})
-$0]]></text>
+<text><![CDATA[love.physics.newRectangleShape(${1:width}, ${2:height})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newrevolutejoint</tag>
 <description>love.physics.newRevoluteJoint(body1, body2, x, y, collideConnected)</description>
-<text><![CDATA[love.physics.newRevoluteJoint(${1:body1}, ${2:body2}, ${3:x}, ${4:y}, ${5:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newRevoluteJoint(${1:body1}, ${2:body2}, ${3:x}, ${4:y}, ${5:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newropejoint</tag>
 <description>love.physics.newRopeJoint(body1, body2, x1, y1, x2, y2, maxLength, collideConnected)</description>
-<text><![CDATA[love.physics.newRopeJoint(${1:body1}, ${2:body2}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2}, ${7:max_length}, ${8:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newRopeJoint(${1:body1}, ${2:body2}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2}, ${7:max_length}, ${8:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newweldjoint</tag>
 <description>love.physics.newWeldJoint(body1, body2, x, y, collideConnected)</description>
-<text><![CDATA[love.physics.newWeldJoint(${1:body1}, ${2:body2}, ${3:x}, ${4:y}, ${5:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newWeldJoint(${1:body1}, ${2:body2}, ${3:x}, ${4:y}, ${5:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newwheeljoint</tag>
 <description>love.physics.newWheelJoint(body1, body2, x, y, ax, ay, collideConnected)</description>
-<text><![CDATA[love.physics.newWheelJoint(${1:body1}, ${2:body2}, ${3:x}, ${4:y}, ${5:anchor_x}, ${6:anchor_y}, ${7:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newWheelJoint(${1:body1}, ${2:body2}, ${3:x}, ${4:y}, ${5:anchor_x}, ${6:anchor_y}, ${7:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newworld</tag>
 <description>love.physics.newWorld(xg, yg, sleep)</description>
-<text><![CDATA[love.physics.newWorld(${1:x_gravity}, ${2:y_gravity}, ${3:sleep})
-$0]]></text>
+<text><![CDATA[love.physics.newWorld(${1:x_gravity}, ${2:y_gravity}, ${3:sleep})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setmeter</tag>
 <description>love.physics.setMeter(scale)</description>
-<text><![CDATA[love.physics.setMeter(${1:scale})
-$0]]></text>
+<text><![CDATA[love.physics.setMeter(${1:scale})$0]]></text>
 </snippet>
 

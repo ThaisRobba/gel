@@ -58,37 +58,10 @@ end]]></text>
 <tag>_conf</tag> 
 <description>function love.conf(t)</description>
 <text><![CDATA[function love.conf(t)
-    t.identity = ${1:nil}                   -- The name of the save directory (string)
-    t.version = "${2:0.9.0}"                -- The LÖVE version this game was made for (string)
-    t.console = ${3:false}                  -- Attach a console (boolean, Windows only)
-
-    t.window.title = "${4:Untitled}"        -- The window title (string)
-    t.window.icon = ${5:nil}                -- Filepath to an image to use as the window's icon (string)
-    t.window.width = ${6:800}               -- The window width (number)
-    t.window.height = ${7:600}              -- The window height (number)
-    t.window.borderless = ${8:false}        -- Remove all border visuals from the window (boolean)
-    t.window.resizable = ${9:false}         -- Let the window be user-resizable (boolean)
-    t.window.minwidth = ${10:1}              -- Minimum window width if the window is resizable (number)
-    t.window.minheight = ${11:1}             -- Minimum window height if the window is resizable (number)
-    t.window.fullscreen = ${12:false}        -- Enable fullscreen (boolean)
-    t.window.fullscreentype = "${13:normal}" -- Standard fullscreen or desktop fullscreen mode (string)
-    t.window.vsync = ${14:true}              -- Enable vertical sync (boolean)
-    t.window.fsaa = ${15:0}                  -- The number of samples to use with multi-sampled antialiasing (number)
-    t.window.display = ${16:1}               -- Index of the monitor to show the window in (number)
-
-    t.modules.audio = true             -- Enable the audio module (boolean)
-    t.modules.event = true             -- Enable the event module (boolean)
-    t.modules.graphics = true          -- Enable the graphics module (boolean)
-    t.modules.image = true             -- Enable the image module (boolean)
-    t.modules.joystick = true          -- Enable the joystick module (boolean)
-    t.modules.keyboard = true          -- Enable the keyboard module (boolean)
-    t.modules.math = true              -- Enable the math module (boolean)
-    t.modules.mouse = true             -- Enable the mouse module (boolean)
-    t.modules.physics = true           -- Enable the physics module (boolean)
-    t.modules.sound = true             -- Enable the sound module (boolean)
-    t.modules.system = true            -- Enable the system module (boolean)
-    t.modules.timer = true             -- Enable the timer module (boolean)
-    t.modules.window = true            -- Enable the window module (boolean)
+    t.version = "${1:0.9.0}"
+    t.window.title = "${2:Untitled}"
+    t.window.width = ${3:800}
+    t.window.height = ${4:600}
 end
 $0]]></text>
 </snippet>
@@ -233,845 +206,725 @@ end]]></text>
 <snippet>
 <tag>getdistancemodel</tag>
 <description>love.audio.getDistanceModel()</description>
-<text><![CDATA[love.audio.getDistanceModel()
-$0]]></text>
+<text><![CDATA[love.audio.getDistanceModel()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getorientation</tag>
 <description>love.audio.getOrientation()</description>
-<text><![CDATA[love.audio.getOrientation()
-$0]]></text>
+<text><![CDATA[love.audio.getOrientation()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>_getposition</tag>
 <description>love.audio.getPosition()</description>
-<text><![CDATA[love.audio.getPosition()
-$0]]></text>
+<text><![CDATA[love.audio.getPosition()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getsourcecount</tag>
 <description>love.audio.getSourceCount()</description>
-<text><![CDATA[love.audio.getSourceCount()
-$0]]></text>
+<text><![CDATA[love.audio.getSourceCount()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getvelocity</tag>
 <description>love.audio.getVelocity()</description>
-<text><![CDATA[love.audio.getVelocity()
-$0]]></text>
+<text><![CDATA[love.audio.getVelocity()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getvolume</tag>
 <description>love.audio.getVolume()</description>
-<text><![CDATA[love.audio.getVolume()
-$0]]></text>
+<text><![CDATA[love.audio.getVolume()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newsource</tag>
 <description>love.audio.newSource(file, type)</description>
-<text><![CDATA[love.audio.newSource(${1:file}, ${2:type})
-$0]]></text>
+<text><![CDATA[love.audio.newSource(${1:file}, ${2:type})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>pause</tag>
 <description>love.audio.pause(source)</description>
-<text><![CDATA[love.audio.pause(${1:source})
-$0]]></text>
+<text><![CDATA[love.audio.pause(${1:source})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>play</tag>
 <description>love.audio.play(source)</description>
-<text><![CDATA[love.audio.play(${1:source})
-$0]]></text>
+<text><![CDATA[love.audio.play(${1:source})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>resume</tag>
 <description>love.audio.resume(source)</description>
-<text><![CDATA[love.audio.resume(${1:source})
-$0]]></text>
+<text><![CDATA[love.audio.resume(${1:source})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>rewind</tag>
 <description>love.audio.rewind(source)</description>
-<text><![CDATA[love.audio.rewind(${1:source})
-$0]]></text>
+<text><![CDATA[love.audio.rewind(${1:source})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setdistancemodel</tag>
 <description>love.audio.setDistanceModel(model)</description>
-<text><![CDATA[love.audio.setDistanceModel(${1:model})
-$0]]></text>
+<text><![CDATA[love.audio.setDistanceModel(${1:model})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setorientation</tag>
 <description>love.audio.setOrientation(fx, fy, fz, ux, uy, uz)</description>
-<text><![CDATA[love.audio.setOrientation(${1:forward_vector_x}, ${2:forward_vector_y}, ${3:forward_vector_z}, ${4:up_vector_x}, ${5:up_vector_y}, ${6:up_vector_z})
-$0]]></text>
+<text><![CDATA[love.audio.setOrientation(${1:forward_vector_x}, ${2:forward_vector_y}, ${3:forward_vector_z}, ${4:up_vector_x}, ${5:up_vector_y}, ${6:up_vector_z})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>_setposition</tag>
 <description>love.audio.setPosition(x, y, z)</description>
-<text><![CDATA[love.audio.setPosition(${1:x}, ${2:y}, ${3:z})
-$0]]></text>
+<text><![CDATA[love.audio.setPosition(${1:x}, ${2:y}, ${3:z})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setvelocity</tag>
 <description>love.audio.setVelocity(x, y, z)</description>
-<text><![CDATA[love.audio.setVelocity(${1:x}, ${2:y}, ${3:z})
-$0]]></text>
+<text><![CDATA[love.audio.setVelocity(${1:x}, ${2:y}, ${3:z})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setvolume</tag>
 <description>love.audio.setVolume(volume)</description>
-<text><![CDATA[love.audio.setVolume(${1:volume})
-$0]]></text>
+<text><![CDATA[love.audio.setVolume(${1:volume})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>stop</tag>
 <description>love.audio.stop(source)</description>
-<text><![CDATA[love.audio.stop(${1:source})
-$0]]></text>
+<text><![CDATA[love.audio.stop(${1:source})$0]]></text>
 </snippet>
 <snippet>
 <tag>_clear</tag>
 <description>love.event.clear()</description>
-<text><![CDATA[love.event.clear()
-$0]]></text>
+<text><![CDATA[love.event.clear()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>poll</tag>
 <description>love.event.poll()</description>
-<text><![CDATA[love.event.poll()
-$0]]></text>
+<text><![CDATA[love.event.poll()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>pump</tag>
 <description>love.event.pump()</description>
-<text><![CDATA[love.event.pump()
-$0]]></text>
+<text><![CDATA[love.event.pump()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>_push</tag>
 <description>love.event.push(e, a, b, c, ...)</description>
-<text><![CDATA[love.event.push(${1:event_name, ...})
-$0]]></text>
+<text><![CDATA[love.event.push(${1:event_name, ...})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>quit</tag>
 <description>love.event.quit()</description>
-<text><![CDATA[love.event.quit()
-$0]]></text>
+<text><![CDATA[love.event.quit()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>wait</tag>
 <description>love.event.wait()</description>
-<text><![CDATA[love.event.wait()
-$0]]></text>
+<text><![CDATA[love.event.wait()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>append</tag>
 <description>love.filesystem.append(name, data, size)</description>
-<text><![CDATA[love.filesystem.append(${1:name}, ${2:data}, ${3:size})
-$0]]></text>
+<text><![CDATA[love.filesystem.append(${1:name}, ${2:data}, ${3:size})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>createdirectory</tag>
 <description>love.filesystem.createDirectory(name)</description>
-<text><![CDATA[love.filesystem.createDirectory(${1:name})
-$0]]></text>
+<text><![CDATA[love.filesystem.createDirectory(${1:name})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>exists</tag>
 <description>love.filesystem.exists(filename)</description>
-<text><![CDATA[love.filesystem.exists(${1:filename})
-$0]]></text>
+<text><![CDATA[love.filesystem.exists(${1:filename})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getappdatadirectory</tag>
 <description>love.filesystem.getAppdataDirectory()</description>
-<text><![CDATA[love.filesystem.getAppdataDirectory()
-$0]]></text>
+<text><![CDATA[love.filesystem.getAppdataDirectory()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getdirectoryitems</tag>
 <description>love.filesystem.getDirectoryItems(dir)</description>
-<text><![CDATA[love.filesystem.getDirectoryItems(${1:directory})
-$0]]></text>
+<text><![CDATA[love.filesystem.getDirectoryItems(${1:directory})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getidentity</tag>
 <description>love.filesystem.getIdentity()</description>
-<text><![CDATA[love.filesystem.getIdentity()
-$0]]></text>
+<text><![CDATA[love.filesystem.getIdentity()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getlastmodified</tag>
 <description>love.filesystem.getLastModified(filename)</description>
-<text><![CDATA[love.filesystem.getLastModified(${1:filename})
-$0]]></text>
+<text><![CDATA[love.filesystem.getLastModified(${1:filename})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getsavedirectory</tag>
 <description>love.filesystem.getSaveDirectory()</description>
-<text><![CDATA[love.filesystem.getSaveDirectory()
-$0]]></text>
+<text><![CDATA[love.filesystem.getSaveDirectory()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getsize</tag>
 <description>love.filesystem.getSize(filename)</description>
-<text><![CDATA[love.filesystem.getSize(${1:filename})
-$0]]></text>
+<text><![CDATA[love.filesystem.getSize(${1:filename})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getuserdirectory</tag>
 <description>love.filesystem.getUserDirectory()</description>
-<text><![CDATA[love.filesystem.getUserDirectory()
-$0]]></text>
+<text><![CDATA[love.filesystem.getUserDirectory()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getworkingdirectory</tag>
 <description>love.filesystem.getWorkingDirectory()</description>
-<text><![CDATA[love.filesystem.getWorkingDirectory()
-$0]]></text>
+<text><![CDATA[love.filesystem.getWorkingDirectory()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>init</tag>
 <description>love.filesystem.init()</description>
-<text><![CDATA[love.filesystem.init()
-$0]]></text>
+<text><![CDATA[love.filesystem.init()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>isdirectory</tag>
 <description>love.filesystem.isDirectory(filename)</description>
-<text><![CDATA[love.filesystem.isDirectory(${1:filename})
-$0]]></text>
+<text><![CDATA[love.filesystem.isDirectory(${1:filename})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>isfile</tag>
 <description>love.filesystem.isFile(filename)</description>
-<text><![CDATA[love.filesystem.isFile(${1:filename})
-$0]]></text>
+<text><![CDATA[love.filesystem.isFile(${1:filename})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>isfused</tag>
 <description>love.filesystem.isFused()</description>
-<text><![CDATA[love.filesystem.isFused()
-$0]]></text>
+<text><![CDATA[love.filesystem.isFused()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>lines</tag>
 <description>love.filesystem.lines(name)</description>
-<text><![CDATA[love.filesystem.lines(${1:name})
-$0]]></text>
+<text><![CDATA[love.filesystem.lines(${1:name})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>load</tag>
 <description>love.filesystem.load(name)</description>
-<text><![CDATA[love.filesystem.load(${1:name})
-$0]]></text>
+<text><![CDATA[love.filesystem.load(${1:name})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>mount</tag>
 <description>love.filesystem.mount(archive, mountpoint)</description>
-<text><![CDATA[love.filesystem.mount(${1:archive}, ${2:mountpoint})
-$0]]></text>
+<text><![CDATA[love.filesystem.mount(${1:archive}, ${2:mountpoint})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newfile</tag>
 <description>love.filesystem.newFile(filename)</description>
-<text><![CDATA[love.filesystem.newFile(${1:filename})
-$0]]></text>
+<text><![CDATA[love.filesystem.newFile(${1:filename})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newfiledata</tag>
 <description>love.filesystem.newFileData(filepath)</description>
-<text><![CDATA[love.filesystem.newFileData(${1:filepath})
-$0]]></text>
+<text><![CDATA[love.filesystem.newFileData(${1:filepath})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>read</tag>
 <description>love.filesystem.read(name, size)</description>
-<text><![CDATA[love.filesystem.read(${1:name_and_path}, ${2:size})
-$0]]></text>
+<text><![CDATA[love.filesystem.read(${1:name_and_path}, ${2:size})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>remove</tag>
 <description>love.filesystem.remove(name)</description>
-<text><![CDATA[love.filesystem.remove(${1:name})
-$0]]></text>
+<text><![CDATA[love.filesystem.remove(${1:name})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setidentity</tag>
 <description>love.filesystem.setIdentity(name)</description>
-<text><![CDATA[love.filesystem.setIdentity(${1:name})
-$0]]></text>
+<text><![CDATA[love.filesystem.setIdentity(${1:name})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setsource</tag>
 <description>love.filesystem.setSource(path)</description>
-<text><![CDATA[love.filesystem.setSource(${1:path})
-$0]]></text>
+<text><![CDATA[love.filesystem.setSource(${1:path})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>unmount</tag>
 <description>love.filesystem.unmount(archive)</description>
-<text><![CDATA[love.filesystem.unmount(${1:archive})
-$0]]></text>
+<text><![CDATA[love.filesystem.unmount(${1:archive})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>write</tag>
 <description>love.filesystem.write(name, data, size)</description>
-<text><![CDATA[love.filesystem.write(${1:name}, ${2:data}, ${3:size})
-$0]]></text>
+<text><![CDATA[love.filesystem.write(${1:name}, ${2:data}, ${3:size})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newglyphdata</tag>
 <description>love.font.newGlyphData(rasterizer, glyph)</description>
-<text><![CDATA[love.font.newGlyphData(${1:rasterizer}, ${2:glyph_char_code})
-$0]]></text>
+<text><![CDATA[love.font.newGlyphData(${1:rasterizer}, ${2:glyph_char_code})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newrasterizer</tag>
 <description>love.font.newRasterizer(imageData, glyphs)</description>
-<text><![CDATA[love.font.newRasterizer(${1:imageData}, ${2:glyphs})
-$0]]></text>
+<text><![CDATA[love.font.newRasterizer(${1:imageData}, ${2:glyphs})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>origin</tag>
 <description>love.graphics.origin()</description>
-<text><![CDATA[love.graphics.origin()
-$0]]></text>
+<text><![CDATA[love.graphics.origin()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>pop</tag>
 <description>love.graphics.pop()</description>
-<text><![CDATA[love.graphics.pop()
-$0]]></text>
+<text><![CDATA[love.graphics.pop()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>push</tag>
 <description>love.graphics.push()</description>
-<text><![CDATA[love.graphics.push()
-$0]]></text>
+<text><![CDATA[love.graphics.push()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>rotate</tag>
 <description>love.graphics.rotate(angle)</description>
-<text><![CDATA[love.graphics.rotate(${1:angle})
-$0]]></text>
+<text><![CDATA[love.graphics.rotate(${1:angle})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>scale</tag>
 <description>love.graphics.scale(x_scale, y_scale)</description>
-<text><![CDATA[love.graphics.scale(${1:x_scale}, ${2:y_scale})
-$0]]></text>
+<text><![CDATA[love.graphics.scale(${1:x_scale}, ${2:y_scale})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>shear</tag>
 <description>love.graphics.shear(x_shear, y_shear)</description>
-<text><![CDATA[love.graphics.shear(${1:x_shear}, ${2:y_shear})
-$0]]></text>
+<text><![CDATA[love.graphics.shear(${1:x_shear}, ${2:y_shear})$0]]></text>
 </snippet>		
 
 <snippet>
 <tag>translate</tag>
 <description>love.graphics.translate(x_translation, y_translation)</description>
-<text><![CDATA[love.graphics.translate(${1:x_translation}, ${2:y_translation})
-$0]]></text>
+<text><![CDATA[love.graphics.translate(${1:x_translation}, ${2:y_translation})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>arc</tag>
 <description>love.graphics.arc</description>
-<text><![CDATA[love.graphics.arc(${1:mode}, ${2:x}, ${3:y}, ${4:radius}, ${5:angle1}, ${6:angle2}, ${7:segments})
-$0]]></text>
+<text><![CDATA[love.graphics.arc(${1:mode}, ${2:x}, ${3:y}, ${4:radius}, ${5:angle1}, ${6:angle2}, ${7:segments})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>circle</tag>
 <description>love.graphics.circle</description>
-<text><![CDATA[love.graphics.circle(${1:mode}, ${2:x}, ${3:y}, ${4:radius}, ${5:segments})
-$0]]></text>
+<text><![CDATA[love.graphics.circle(${1:mode}, ${2:x}, ${3:y}, ${4:radius}, ${5:segments})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>clear</tag>
 <description>love.graphics.clear</description>
-<text><![CDATA[love.graphics.clear()
-$0]]></text>
+<text><![CDATA[love.graphics.clear()$0]]></text>
 </snippet>
 	<snippet>
 <tag>line</tag> 
 <description>love.graphics.line(x1, y1, x2, y2, ...)</description>
-<text><![CDATA[love.graphics.line(${1:x},${2:y},${3:x},${4:y, ...})
-$0]]></text>
+<text><![CDATA[love.graphics.line(${1:x},${2:y},${3:x},${4:y, ...})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>point</tag> 
 <description>love.graphics.point</description>
-<text><![CDATA[love.graphics.point(${1:x}, ${2:y})
-$0]]></text>
+<text><![CDATA[love.graphics.point(${1:x}, ${2:y})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>polygon</tag> 
 <description>love.graphics.polygon</description>
-<text><![CDATA[love.graphics.polygon(${1:mode}, ${2:vertices})
-$0]]></text>
+<text><![CDATA[love.graphics.polygon(${1:mode}, ${2:vertices})$0]]></text>
 </snippet>
 	<snippet>
 <tag>rectangle</tag> 
 <description>love.graphics.rectangle(mode, x, y, width, height)</description>
-<text><![CDATA[love.graphics.rectangle(${1:mode}, ${2:x}, ${3:y}, ${4:width}, ${5:height})
-$0]]></text>
+<text><![CDATA[love.graphics.rectangle(${1:mode}, ${2:x}, ${3:y}, ${4:width}, ${5:height})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>present</tag> 
 <description>love.graphics.present()</description>
-<text><![CDATA[love.graphics.present()
-$0]]></text>
+<text><![CDATA[love.graphics.present()$0]]></text>
 </snippet>
 	<snippet>
 <tag>print</tag> 
 <description>love.graphics.print(text, x, y, ...)</description>
-<text><![CDATA[love.graphics.print(${1:text}, ${2:x}, ${3:y, ...})
-$0]]></text>
+<text><![CDATA[love.graphics.print(${1:text}, ${2:x}, ${3:y, ...})$0]]></text>
 </snippet>
 	<snippet>
 <tag>printf</tag> 
 <description>love.graphics.printf(text, x, y, limit, align, ...)</description>
-<text><![CDATA[love.graphics.printf(${1:text}, ${2:x}, ${3:y}, ${4:x_limit}, ${5:align, ...})
-$0]]></text>
+<text><![CDATA[love.graphics.printf(${1:text}, ${2:x}, ${3:y}, ${4:x_limit}, ${5:align, ...})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>draw</tag> 
 <description>love.graphics.draw(drawable, x, y, ...)</description>
-<text><![CDATA[love.graphics.draw(${1:drawable}, ${2:x}, ${3:y, ...})
-$0]]></text>
+<text><![CDATA[love.graphics.draw(${1:drawable}, ${2:x}, ${3:y, ...})$0]]></text>
 </snippet>
 
 		<snippet>
 <tag>newcanvas</tag>
 <description>love.graphics.newCanvas(...)</description>
-<text><![CDATA[love.graphics.newCanvas(${1:width, height, texture_type})
-$0]]></text>
+<text><![CDATA[love.graphics.newCanvas(${1:width, height, texture_type})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newfont</tag>
 <description>love.graphics.newFont(data, size)</description>
-<text><![CDATA[love.graphics.newFont(${1:data}, ${2:size})
-$0]]></text>
+<text><![CDATA[love.graphics.newFont(${1:data}, ${2:size})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setfont</tag>
 <description>love.graphics.setFont(font)</description>
-<text><![CDATA[love.graphics.setFont(${1:font})
-$0]]></text>
+<text><![CDATA[love.graphics.setFont(${1:font})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newimage</tag> 
 <description>love.graphics.newImage(file)</description>
-<text><![CDATA[love.graphics.newImage(${1:file})
-$0]]></text>
+<text><![CDATA[love.graphics.newImage(${1:file})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newimagefont</tag> 
 <description>love.graphics.newImageFont(file, glyphs)</description>
-<text><![CDATA[love.graphics.newImageFont(${1:file], ${2:glyphs})
-$0]]></text>
+<text><![CDATA[love.graphics.newImageFont(${1:file], ${2:glyphs})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>newmesh</tag>
 <description>love.graphics.newMesh(vertices, image, mode)</description>
-<text><![CDATA[love.graphics.newMesh(${1:vertices}, ${2:image}, ${3:mode})
-$0]]></text>
+<text><![CDATA[love.graphics.newMesh(${1:vertices}, ${2:image}, ${3:mode})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>newparticlesystem</tag>
 <description>love.graphics.newParticleSystem(image, buffer)</description>
-<text><![CDATA[love.graphics.newParticleSystem(${1:image}, ${2:buffer})
-$0]]></text>
+<text><![CDATA[love.graphics.newParticleSystem(${1:image}, ${2:buffer})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>newquad</tag>
 <description>love.graphics.newQuad(x, y, width, height, sw, sh)</description>
-<text><![CDATA[love.graphics.newQuad(${1:x}, ${2:y}, ${3:width}, ${4:height}, ${5:image_width}, ${6:image_height})
-$0]]></text>
+<text><![CDATA[love.graphics.newQuad(${1:x}, ${2:y}, ${3:width}, ${4:height}, ${5:image_width}, ${6:image_height})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>newscreenshot</tag>
 <description>love.graphics.newScreenshot(copyAlpha)</description>
-<text><![CDATA[love.graphics.newScreenshot(${1:copyAlpha})
-$0]]></text>
+<text><![CDATA[love.graphics.newScreenshot(${1:copyAlpha})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>newshader</tag>
 <description>love.graphics.newShader(pixelcode, vertexcode)</description>
-<text><![CDATA[love.graphics.newShader(${1:pixel_data},${2:vertex_data})
-$0]]></text>
+<text><![CDATA[love.graphics.newShader(${1:pixel_data},${2:vertex_data})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>newspritebatch</tag>
 <description>love.graphics.newSpriteBatch(image, size, usagehint)</description>
-<text><![CDATA[love.graphics.newSpriteBatch(${1:image}, ${2:size}, ${3:usage_hint})
-$0]]></text>
+<text><![CDATA[love.graphics.newSpriteBatch(${1:image}, ${2:size}, ${3:usage_hint})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getbackgroundcolor</tag>
 <description>love.graphics.getBackgroundColor()</description>
-<text><![CDATA[love.graphics.getBackgroundColor()
-$0]]></text>
+<text><![CDATA[love.graphics.getBackgroundColor()$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>setbackgroundcolor</tag>
 <description>love.graphics.setBackgroundColor(red, green, blue, alpha)</description>
-<text><![CDATA[love.graphics.setBackgroundColor(${1:Red}, ${2:Green}, ${3:Blue}, ${4:Alpha})
-$0]]></text>
+<text><![CDATA[love.graphics.setBackgroundColor(${1:Red}, ${2:Green}, ${3:Blue}, ${4:Alpha})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getblend</tag>
 <description>love.graphics.getBlendMode()</description>
-<text><![CDATA[love.graphics.getBlendMode()
-$0]]></text>
+<text><![CDATA[love.graphics.getBlendMode()$0]]></text>
 </snippet>
 <snippet>
 <tag>setblend</tag>
 <description>love.graphics.setBlendMode(mode)</description>
-<text><![CDATA[love.graphics.setBlendMode($1)
-$0]]></text>
+<text><![CDATA[love.graphics.setBlendMode($1)$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getcanvas</tag>
 <description>love.graphics.getCanvas()</description>
-<text><![CDATA[love.graphics.getCanvas()
-$0]]></text>
+<text><![CDATA[love.graphics.getCanvas()$0]]></text>
 </snippet>
 <snippet>
 <tag>setcanvas</tag>
 <description>love.graphics.setCanvas(canvas)</description>
-<text><![CDATA[love.graphics.setCanvas(${1:canvas})
-$0]]></text>
+<text><![CDATA[love.graphics.setCanvas(${1:canvas})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getcolor</tag>
 <description>love.graphics.getColor()</description>
-<text><![CDATA[love.graphics.getColor()
-$0]]></text>
+<text><![CDATA[love.graphics.getColor()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setcolor</tag>
 <description>love.graphics.setColor(Red, Green, Blue, Alpha)</description>
-<text><![CDATA[love.graphics.setColor(${1:Red}, ${2:Green}, ${3:Blue}, ${4:Alpha})
-$0]]></text>
+<text><![CDATA[love.graphics.setColor(${1:Red}, ${2:Green}, ${3:Blue}, ${4:Alpha})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>setcolormask</tag>
 <description>love.graphics.setColorMask(Red, Green, Blue, Alpha)</description>
-<text><![CDATA[love.graphics.setColorMask(${1:Red}, ${2:Green}, ${3:Blue}, ${4:Alpha})
-$0]]></text>
+<text><![CDATA[love.graphics.setColorMask(${1:Red}, ${2:Green}, ${3:Blue}, ${4:Alpha})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>getmask</tag>
 <description>love.graphics.getColorMask()</description>
-<text><![CDATA[love.graphics.getColorMask()
-$0]]></text>
+<text><![CDATA[love.graphics.getColorMask()$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>getfilter</tag>
 <description>love.graphics.getDefaultFilter()</description>
-<text><![CDATA[love.graphics.getDefaultFilter()
-$0]]></text>
+<text><![CDATA[love.graphics.getDefaultFilter()$0]]></text>
 </snippet>
 <snippet>
 <tag>setfilter</tag>
 <description>love.graphics.setDefaultFilter(min, mag, anisotropy)</description>
-<text><![CDATA[love.graphics.setDefaultFilter(${1:min}, ${2:mag}, ${3:anisotropy})
-$0]]></text>
+<text><![CDATA[love.graphics.setDefaultFilter(${1:min}, ${2:mag}, ${3:anisotropy})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getfont</tag>
 <description>love.graphics.getFont()</description>
-<text><![CDATA[love.graphics.getFont()
-$0]]></text>
+<text><![CDATA[love.graphics.getFont()$0]]></text>
 </snippet>
 <snippet>
 <tag>setfont</tag>
 <description>love.graphics.setFont(font)</description>
-<text><![CDATA[love.graphics.setFont(${1:font})
-$0]]></text>
+<text><![CDATA[love.graphics.setFont(${1:font})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getlinejoin</tag>
 <description>love.graphics.getLineJoin()</description>
-<text><![CDATA[love.graphics.getLineJoin()
-$0]]></text>
+<text><![CDATA[love.graphics.getLineJoin()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getlinestyle</tag>
 <description>love.graphics.getLineStyle()</description>
-<text><![CDATA[love.graphics.getLineStyle()
-$0]]></text>
+<text><![CDATA[love.graphics.getLineStyle()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getlinewidth</tag>
 <description>love.graphics.getLineWidth()</description>
-<text><![CDATA[love.graphics.getLineWidth()
-$0]]></text>
+<text><![CDATA[love.graphics.getLineWidth()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setlinejoin</tag>
 <description>love.graphics.setLineJoin(join)</description>
-<text><![CDATA[love.graphics.setLineJoin(${1:join})
-$0]]></text>
+<text><![CDATA[love.graphics.setLineJoin(${1:join})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setlinestyle</tag>
 <description>love.graphics.setLineStyle(style)</description>
-<text><![CDATA[love.graphics.setLineStyle(${1:style})
-$0]]></text>
+<text><![CDATA[love.graphics.setLineStyle(${1:style})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setlinewidth</tag>
 <description>love.graphics.setLineWidth(width)</description>
-<text><![CDATA[love.graphics.setLineWidth(${1:width})
-$0]]></text>
+<text><![CDATA[love.graphics.setLineWidth(${1:width})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>getmaximagesize</tag> 
 <description>love.graphics.getMaxImageSize()</description>
-<text><![CDATA[love.graphics.getMaxImageSize()
-$0]]></text>
+<text><![CDATA[love.graphics.getMaxImageSize()$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>getmaxpointsize</tag> 
 <description>love.graphics.getMaxPointSize()</description>
-<text><![CDATA[love.graphics.getMaxPointSize()
-$0]]></text>
+<text><![CDATA[love.graphics.getMaxPointSize()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getpointsize</tag>
 <description>love.graphics.getPointSize()</description>
-<text><![CDATA[love.graphics.getPointSize()
-$0]]></text>
+<text><![CDATA[love.graphics.getPointSize()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getpointstyle</tag>
 <description>love.graphics.getPointStyle()</description>
-<text><![CDATA[love.graphics.getPointStyle()
-$0]]></text>
+<text><![CDATA[love.graphics.getPointStyle()$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>setpointsize</tag>
 <description>love.graphics.setPointSize(size)</description>
-<text><![CDATA[love.graphics.setPointSize(${1:size})
-$0]]></text>
+<text><![CDATA[love.graphics.setPointSize(${1:size})$0]]></text>
 </snippet>
 <snippet>
 <tag>setpointstyle</tag>
 <description>love.graphics.setPointStyle(style)</description>
-<text><![CDATA[love.graphics.setPointStyle(${1:style})
-$0]]></text>
+<text><![CDATA[love.graphics.setPointStyle(${1:style})$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>getrendererinfo</tag>
 <description>love.graphics.getRendererInfo()</description>
-<text><![CDATA[love.graphics.getRendererInfo()
-$0]]></text>
+<text><![CDATA[love.graphics.getRendererInfo()$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>getscissor</tag>
 <description>love.graphics.getScissor()</description>
-<text><![CDATA[love.graphics.getScissor()
-$0]]></text>
+<text><![CDATA[love.graphics.getScissor()$0]]></text>
 </snippet>
 <snippet>
 <tag>setscissor</tag>
 <description>love.graphics.setScissor(x, y, width, height)</description>
-<text><![CDATA[love.graphics.setScissor(${1:x}, ${2:y}, ${3:width}, ${4:height})
-$0]]></text>
+<text><![CDATA[love.graphics.setScissor(${1:x}, ${2:y}, ${3:width}, ${4:height})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getshader</tag>
 <description>love.graphics.getShader()</description>
-<text><![CDATA[love.graphics.getShader()
-$0]]></text>
+<text><![CDATA[love.graphics.getShader()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>issupported</tag>
 <description>love.graphics.isSupported(support1, support2, support3, ...)</description>
-<text><![CDATA[love.graphics.isSupported(${1:support1...})
-$0]]></text>
+<text><![CDATA[love.graphics.isSupported(${1:support1...})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>reset</tag> 
 <description>love.graphics.reset()</description>
-<text><![CDATA[love.graphics.reset()
-$0]]></text>
+<text><![CDATA[love.graphics.reset()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setstencil</tag> 
 <description>love.graphics.setStencil(stencilFunction)</description>
-<text><![CDATA[love.graphics.setStencil(${1:stencil_function})
-$0]]></text>
+<text><![CDATA[love.graphics.setStencil(${1:stencil_function})$0]]></text>
 </snippet>			
 
 <snippet>
 <tag>setinvertedstencil</tag> 
 <description>love.graphics.setInvertedStencil(stencilFunction)</description>
-<text><![CDATA[love.graphics.setInvertedStencil(${1:stencil_function})
-$0]]></text>
+<text><![CDATA[love.graphics.setInvertedStencil(${1:stencil_function})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getdimensions</tag>
 <description>love.graphics.getDimensions()</description>
-<text><![CDATA[love.graphics.getDimensions()
-$0]]></text>
+<text><![CDATA[love.graphics.getDimensions()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getheight</tag>
 <description>love.graphics.getHeight()</description>
-<text><![CDATA[love.graphics.getHeight()
-$0]]></text>
+<text><![CDATA[love.graphics.getHeight()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getwidth</tag>
 <description>love.graphics.getWidth()</description>
-<text><![CDATA[love.graphics.getWidth()
-$0]]></text>
+<text><![CDATA[love.graphics.getWidth()$0]]></text>
 </snippet>
 <snippet>
 <tag>iscompressed</tag>
 <description>love.image.isCompressed(filename)</description>
-<text><![CDATA[love.image.isCompressed(${1:filename})
-$0]]></text>
+<text><![CDATA[love.image.isCompressed(${1:filename})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newCompressedData</tag>
 <description>love.image.newCompressedData(filename)</description>
-<text><![CDATA[love.image.newCompressedData(${1:filename})
-$0]]></text>
+<text><![CDATA[love.image.newCompressedData(${1:filename})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newImageData</tag>
 <description>love.image.newImageData(filename)</description>
-<text><![CDATA[love.image.newImageData(${1:filename or width, height})
-$0]]></text>
+<text><![CDATA[love.image.newImageData(${1:filename or width, height})$0]]></text>
 </snippet>
 
 <snippet>
@@ -1154,601 +1007,515 @@ end]]></text>
 <snippet>
 <tag>getjoystickcount</tag>
 <description>love.joystick.getJoystickCount()</description>
-<text><![CDATA[love.joystick.getJoystickCount()
-$0]]></text>
+<text><![CDATA[love.joystick.getJoystickCount()$0]]></text>
 </snippet>
 
 
 <snippet>
 <tag>getjoystick</tag>
 <description>love.joystick.getJoystick()</description>
-<text><![CDATA[love.joystick.getJoystick()
-$0]]></text>
+<text><![CDATA[love.joystick.getJoystick()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setgamepadmapping</tag> 
 <description>love.joystick.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)</description>
-<text><![CDATA[love.joystick.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)
-$0]]></text>
+<text><![CDATA[love.joystick.setGamepadMapping(guid, button, inputtype, inputindex, hatdir)$0]]></text>
 </snippet>
 <snippet>
 <tag>haskeyrepeat</tag>
 <description>love.image.hasKeyRepeat()</description>
-<text><![CDATA[love.image.hasKeyRepeat()
-$0]]></text>
+<text><![CDATA[love.image.hasKeyRepeat()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>hastextinput</tag>
 <description>love.image.hasTextInput()</description>
-<text><![CDATA[love.image.hasTextInput()
-$0]]></text>
+<text><![CDATA[love.image.hasTextInput()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>isdown</tag>
 <description>love.image.isDown(key)</description>
-<text><![CDATA[love.image.isDown(${1:key})
-$0]]></text>
+<text><![CDATA[love.image.isDown(${1:key})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setkeyrepeat</tag>
 <description>love.image.seyKeyRepeat(enable)</description>
-<text><![CDATA[love.image.setKeyRepeat(${1:enable})
-$0]]></text>
+<text><![CDATA[love.image.setKeyRepeat(${1:enable})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>settextinput</tag>
 <description>love.image.setTextInput(enable)</description>
-<text><![CDATA[love.image.setTextInput(${1:enable})
-$0]]></text>
+<text><![CDATA[love.image.setTextInput(${1:enable})$0]]></text>
 </snippet>
 <snippet>
 <tag>getrandomseed</tag>
 <description>love.math.getRandomSeed()</description>
-<text><![CDATA[love.math.getRandomSeed()
-$0]]></text>
+<text><![CDATA[love.math.getRandomSeed()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>isconvex</tag>
 <description>love.math.isConvex(vertices)</description>
-<text><![CDATA[love.math.isConvex(${1:vertices})
-$0]]></text>
+<text><![CDATA[love.math.isConvex(${1:vertices})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newbeziercurve</tag>
 <description>love.math.newBezierCurve(vertices)</description>
-<text><![CDATA[love.math.newBezierCurve(${1:vertices})
-$0]]></text>
+<text><![CDATA[love.math.newBezierCurve(${1:vertices})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newRandomGenerator</tag>
 <description>love.math.newRandomGenerator()</description>
-<text><![CDATA[love.math.newRandomGenerator($1)
-$0]]></text>
+<text><![CDATA[love.math.newRandomGenerator($1)$0]]></text>
 </snippet>
 
 <snippet>
 <tag>noise</tag>
 <description>love.math.noise(dimensions)</description>
-<text><![CDATA[love.math.noise(${1:x, y, z, ...})
-$0]]></text>
+<text><![CDATA[love.math.noise(${1:x, y, z, ...})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>random</tag>
 <description>love.math.random()</description>
-<text><![CDATA[love.math.random()
-$0]]></text>
+<text><![CDATA[love.math.random()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>randomnormal</tag>
 <description>love.math.randomNormal(stddev, mean)</description>
-<text><![CDATA[love.math.randomNormal(${1:standard_deviation}, ${2:mean})
-$0]]></text>
+<text><![CDATA[love.math.randomNormal(${1:standard_deviation}, ${2:mean})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setrandomseed</tag>
 <description>love.math.setRandomSeed(seed)</description>
-<text><![CDATA[love.math.setRandomSeed(${1:seed})
-$0]]></text>
+<text><![CDATA[love.math.setRandomSeed(${1:seed})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>triangulate</tag>
 <description>love.math.triangulate(vertices)</description>
-<text><![CDATA[love.math.triangulate(${1:vertices})
-$0]]></text>
+<text><![CDATA[love.math.triangulate(${1:vertices})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getcursor</tag>
 <description>love.mouse.getCursor()</description>
-<text><![CDATA[love.mouse.getCursor()
-$0]]></text>
+<text><![CDATA[love.mouse.getCursor()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getposition</tag>
 <description>love.mouse.getPosition()</description>
-<text><![CDATA[love.mouse.getPosition()
-$0]]></text>
+<text><![CDATA[love.mouse.getPosition()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getsystemcursor</tag>
 <description>love.mouse.getSystemCursor(ctype)</description>
-<text><![CDATA[love.mouse.getSystemCursor(${1:cursor_type})
-$0]]></text>
+<text><![CDATA[love.mouse.getSystemCursor(${1:cursor_type})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getx</tag>
 <description>love.mouse.getX()</description>
-<text><![CDATA[love.mouse.getX()
-$0]]></text>
+<text><![CDATA[love.mouse.getX()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>gety</tag>
 <description>love.mouse.getY()</description>
-<text><![CDATA[love.mouse.getY()
-$0]]></text>
+<text><![CDATA[love.mouse.getY()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>isdown</tag>
 <description>love.mouse.isDown(button)</description>
-<text><![CDATA[love.mouse.isDown(${1:button})
-$0]]></text>
+<text><![CDATA[love.mouse.isDown(${1:button})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>isgrabbed</tag>
 <description>love.mouse.isGrabbed()</description>
-<text><![CDATA[love.mouse.isGrabbed()
-$0]]></text>
+<text><![CDATA[love.mouse.isGrabbed()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>isvisible</tag>
 <description>love.mouse.isVisible()</description>
-<text><![CDATA[love.mouse.isVisible()
-$0]]></text>
+<text><![CDATA[love.mouse.isVisible()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newcursor</tag>
 <description>love.mouse.newCursor(imageData, hotx, hoty)</description>
-<text><![CDATA[love.mouse.newCursor(${1:imageData}, ${2:hotspot_x}, ${3:hotspot_y})
-$0]]></text>
+<text><![CDATA[love.mouse.newCursor(${1:imageData}, ${2:hotspot_x}, ${3:hotspot_y})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setcursor</tag>
 <description>love.mouse.setCursor(cursor)</description>
-<text><![CDATA[love.mouse.setCursor(${1:cursor})
-$0]]></text>
+<text><![CDATA[love.mouse.setCursor(${1:cursor})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setgrabbed</tag>
 <description>love.mouse.setGrabbed(grab)</description>
-<text><![CDATA[love.mouse.setGrabbed(${1:grab})
-$0]]></text>
+<text><![CDATA[love.mouse.setGrabbed(${1:grab})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setposition</tag>
 <description>love.mouse.setPosition(x, y)</description>
-<text><![CDATA[love.mouse.setPosition(${1:x}, ${1:y})
-$0]]></text>
+<text><![CDATA[love.mouse.setPosition(${1:x}, ${1:y})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setvisible</tag>
 <description>love.mouse.setVisible(visible)</description>
-<text><![CDATA[love.mouse.setVisible(${1:visible})
-$0]]></text>
+<text><![CDATA[love.mouse.setVisible(${1:visible})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setx</tag>
 <description>love.mouse.setX(x)</description>
-<text><![CDATA[love.mouse.setX(${1:x})
-$0]]></text>
+<text><![CDATA[love.mouse.setX(${1:x})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>sety</tag>
 <description>love.mouse.setY(y)</description>
-<text><![CDATA[love.mouse.setY(${1:y})
-$0]]></text>
+<text><![CDATA[love.mouse.setY(${1:y})$0]]></text>
 </snippet>
 <snippet>
 <tag>getdistance</tag>
 <description>love.physics.getDistance(fixture1, fixture2)</description>
-<text><![CDATA[love.physics.getDistance(${1:fixture1}, ${2:fixture2})
-$0]]></text>
+<text><![CDATA[love.physics.getDistance(${1:fixture1}, ${2:fixture2})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getmeter</tag>
 <description>love.physics.getMeter()</description>
-<text><![CDATA[love.physics.getMeter()
-$0]]></text>
+<text><![CDATA[love.physics.getMeter()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newbody</tag>
 <description>love.physics.newBody(world, x, y, type)</description>
-<text><![CDATA[love.physics.newBody(${1:world}, ${2:x}, ${3:y}, ${4:type})
-$0]]></text>
+<text><![CDATA[love.physics.newBody(${1:world}, ${2:x}, ${3:y}, ${4:type})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newchainshape</tag>
 <description>love.physics.newChainShape(loop, x1, y1, x2, y2, ... )</description>
-<text><![CDATA[love.physics.newChainShape(${1:loop}, ${2:x1}, ${3:y1}, ${4:x2}, ${5:y2})
-$0]]></text>
+<text><![CDATA[love.physics.newChainShape(${1:loop}, ${2:x1}, ${3:y1}, ${4:x2}, ${5:y2})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newcircleshape</tag>
 <description>love.physics.newCircleShape(radius)</description>
-<text><![CDATA[love.physics.newCircleShape(${1:radius})
-$0]]></text>
+<text><![CDATA[love.physics.newCircleShape(${1:radius})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newdistancejoint</tag>
 <description>love.physics.newDistanceJoint(body1, body2, x1, y1, x2, y2, collideConnected)</description>
-<text><![CDATA[love.physics.newDistanceJoint(${1:body1}, ${2:body2}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2}, ${7:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newDistanceJoint(${1:body1}, ${2:body2}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2}, ${7:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newedgeshape</tag>
 <description>love.physics.newEdgeShape(x1, y1, x2, y2)</description>
-<text><![CDATA[love.physics.newEdgeShape(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2})
-$0]]></text>
+<text><![CDATA[love.physics.newEdgeShape(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newfixture</tag>
 <description>love.physics.newFixture(body, shape, density)</description>
-<text><![CDATA[love.physics.newFixture(${1:body}, ${2:shape}, ${3:density})
-$0]]></text>
+<text><![CDATA[love.physics.newFixture(${1:body}, ${2:shape}, ${3:density})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newfrictionjoint</tag>
 <description>love.physics.newFrictionJoint(body1, body2, x1, y1, x2, y2, collideConnected)</description>
-<text><![CDATA[love.physics.newFrictionJoint(${1:body1}, ${2:body2}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2}, ${7:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newFrictionJoint(${1:body1}, ${2:body2}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2}, ${7:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newgearjoint</tag>
 <description>love.physics.newGearJoint(joint1, joint2, ratio, collideConnected)</description>
-<text><![CDATA[love.physics.newGearJoint(${1:joint1}, ${2:joint2}, ${3:ratio}, ${4:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newGearJoint(${1:joint1}, ${2:joint2}, ${3:ratio}, ${4:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newmousejoint</tag>
 <description>love.physics.newMouseJoint(body, x, y)</description>
-<text><![CDATA[love.physics.newMouseJoint(${1:body}, ${2:x}, ${3:y})
-$0]]></text>
+<text><![CDATA[love.physics.newMouseJoint(${1:body}, ${2:x}, ${3:y})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newpolygonshape</tag>
 <description>love.physics.newPolygonShape(x1, y1, x2, y2...)</description>
-<text><![CDATA[love.physics.newPolygonShape(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2, ...})
-$0]]></text>
+<text><![CDATA[love.physics.newPolygonShape(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2, ...})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newprismaticjoint</tag>
 <description>love.physics.newPrismaticJoint(body1, body2, x, y, ax, ay, collideConnected)</description>
-<text><![CDATA[love.physics.newPrismaticJoint(${1:body1}, ${2:body2}, ${3:x1}, ${4:y1}, ${5:ax}, ${6:ay}, ${7:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newPrismaticJoint(${1:body1}, ${2:body2}, ${3:x1}, ${4:y1}, ${5:ax}, ${6:ay}, ${7:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newpulleyjoint</tag>
 <description>love.physics.newPulleyJoint(body1, body2, gx1, gy1, gx2, gy2, x1, y1, x2, y2, collideConnected)</description>
-<text><![CDATA[love.physics.newPulleyJoint(${1:body1}, ${2:body2}, ${3:gx1}, ${4:gy1}, ${5:gx2}, ${6:gy2}, ${7:x1}, ${8:y1}, ${9:x2}, ${10:y2}, ${11:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newPulleyJoint(${1:body1}, ${2:body2}, ${3:gx1}, ${4:gy1}, ${5:gx2}, ${6:gy2}, ${7:x1}, ${8:y1}, ${9:x2}, ${10:y2}, ${11:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newrectangleshape</tag>
 <description>love.physics.newRectangleShape(width, height)</description>
-<text><![CDATA[love.physics.newRectangleShape(${1:width}, ${2:height})
-$0]]></text>
+<text><![CDATA[love.physics.newRectangleShape(${1:width}, ${2:height})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newrevolutejoint</tag>
 <description>love.physics.newRevoluteJoint(body1, body2, x, y, collideConnected)</description>
-<text><![CDATA[love.physics.newRevoluteJoint(${1:body1}, ${2:body2}, ${3:x}, ${4:y}, ${5:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newRevoluteJoint(${1:body1}, ${2:body2}, ${3:x}, ${4:y}, ${5:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newropejoint</tag>
 <description>love.physics.newRopeJoint(body1, body2, x1, y1, x2, y2, maxLength, collideConnected)</description>
-<text><![CDATA[love.physics.newRopeJoint(${1:body1}, ${2:body2}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2}, ${7:max_length}, ${8:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newRopeJoint(${1:body1}, ${2:body2}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2}, ${7:max_length}, ${8:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newweldjoint</tag>
 <description>love.physics.newWeldJoint(body1, body2, x, y, collideConnected)</description>
-<text><![CDATA[love.physics.newWeldJoint(${1:body1}, ${2:body2}, ${3:x}, ${4:y}, ${5:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newWeldJoint(${1:body1}, ${2:body2}, ${3:x}, ${4:y}, ${5:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newwheeljoint</tag>
 <description>love.physics.newWheelJoint(body1, body2, x, y, ax, ay, collideConnected)</description>
-<text><![CDATA[love.physics.newWheelJoint(${1:body1}, ${2:body2}, ${3:x}, ${4:y}, ${5:anchor_x}, ${6:anchor_y}, ${7:collide_connected})
-$0]]></text>
+<text><![CDATA[love.physics.newWheelJoint(${1:body1}, ${2:body2}, ${3:x}, ${4:y}, ${5:anchor_x}, ${6:anchor_y}, ${7:collide_connected})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newworld</tag>
 <description>love.physics.newWorld(xg, yg, sleep)</description>
-<text><![CDATA[love.physics.newWorld(${1:x_gravity}, ${2:y_gravity}, ${3:sleep})
-$0]]></text>
+<text><![CDATA[love.physics.newWorld(${1:x_gravity}, ${2:y_gravity}, ${3:sleep})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setmeter</tag>
 <description>love.physics.setMeter(scale)</description>
-<text><![CDATA[love.physics.setMeter(${1:scale})
-$0]]></text>
+<text><![CDATA[love.physics.setMeter(${1:scale})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newdecoder</tag>
 <description>love.sound.newDecoder(file, buffer)</description>
-<text><![CDATA[love.sound.newDecoder(${1:file}, ${2:buffer})
-$0]]></text>
+<text><![CDATA[love.sound.newDecoder(${1:file}, ${2:buffer})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newsounddata</tag>
 <description>love.sound.newSoundData(file)</description>
-<text><![CDATA[love.sound.newSoundData(${1:file})
-$0]]></text>
+<text><![CDATA[love.sound.newSoundData(${1:file})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getclipboardtext</tag>
 <description>love.system.getClipboardText()</description>
-<text><![CDATA[love.system.getClipboardText()
-$0]]></text>
+<text><![CDATA[love.system.getClipboardText()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getos</tag>
 <description>love.system.getOS()</description>
-<text><![CDATA[love.system.getOS()
-$0]]></text>
+<text><![CDATA[love.system.getOS()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getpowerinfo</tag>
 <description>love.system.getPowerInfo()</description>
-<text><![CDATA[love.system.getPowerInfo()
-$0]]></text>
+<text><![CDATA[love.system.getPowerInfo()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getprocessorcount</tag>
 <description>love.system.getProcessorCount()</description>
-<text><![CDATA[love.system.getProcessorCount()
-$0]]></text>
+<text><![CDATA[love.system.getProcessorCount()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setclipboardtext</tag>
 <description>love.system.setClipboardText(text)</description>
-<text><![CDATA[love.system.setClipboardText(${1:text})
-$0]]></text>
+<text><![CDATA[love.system.setClipboardText(${1:text})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getChannel</tag>
 <description>love.thread.getChannel(name)</description>
-<text><![CDATA[love.thread.getChannel(${1:name})
-$0]]></text>
+<text><![CDATA[love.thread.getChannel(${1:name})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newchannel</tag>
 <description>love.thread.newChannel()</description>
-<text><![CDATA[love.thread.newChannel()
-$0]]></text>
+<text><![CDATA[love.thread.newChannel()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>newthread</tag>
 <description>love.thread.newThread(filename)</description>
-<text><![CDATA[love.thread.newThread(${1:filename})
-$0]]></text>
+<text><![CDATA[love.thread.newThread(${1:filename})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getaveragedelta</tag>
 <description>love.timer.getAverageDelta()</description>
-<text><![CDATA[love.timer.getAverageDelta()
-$0]]></text>
+<text><![CDATA[love.timer.getAverageDelta()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getdelta</tag>
 <description>love.timer.getDelta()</description>
-<text><![CDATA[love.timer.getDelta()
-$0]]></text>
+<text><![CDATA[love.timer.getDelta()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getfps</tag>
 <description>love.timer.getFPS()</description>
-<text><![CDATA[love.timer.getFPS()
-$0]]></text>
+<text><![CDATA[love.timer.getFPS()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>gettime</tag>
 <description>love.timer.getTime()</description>
-<text><![CDATA[love.timer.getTime()
-$0]]></text>
+<text><![CDATA[love.timer.getTime()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>sleep</tag>
 <description>love.timer.sleep(seconds)</description>
-<text><![CDATA[love.timer.sleep(${1:seconds})
-$0]]></text>
+<text><![CDATA[love.timer.sleep(${1:seconds})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>step</tag>
 <description>love.timer.step()</description>
-<text><![CDATA[love.timer.step()
-$0]]></text>
+<text><![CDATA[love.timer.step()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getdesktopdimensions</tag>
 <description>love.window.getDesktopDimensions(display)</description>
-<text><![CDATA[love.window.getDesktopDimensions(${1:display})
-$0]]></text>
+<text><![CDATA[love.window.getDesktopDimensions(${1:display})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>_getdimensions</tag>
 <description>love.window.getDimensions()</description>
-<text><![CDATA[love.window.getDimensions()
-$0]]></text>
+<text><![CDATA[love.window.getDimensions()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getfullscreen</tag>
 <description>love.window.getFullscreen()</description>
-<text><![CDATA[love.window.getFullscreen()
-$0]]></text>
+<text><![CDATA[love.window.getFullscreen()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getfullscreenmodes</tag>
 <description>love.window.getFullscreenModes()</description>
-<text><![CDATA[love.window.getFullscreenModes()
-$0]]></text>
+<text><![CDATA[love.window.getFullscreenModes()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>_getheight</tag>
 <description>love.window.getHeight()</description>
-<text><![CDATA[love.window.getHeight()
-$0]]></text>
+<text><![CDATA[love.window.getHeight()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>geticon</tag>
 <description>love.window.getIcon()</description>
-<text><![CDATA[love.window.getIcon()
-$0]]></text>
+<text><![CDATA[love.window.getIcon()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>getmode</tag>
 <description>love.window.getMode()</description>
-<text><![CDATA[love.window.getMode()
-$0]]></text>
+<text><![CDATA[love.window.getMode()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>gettitle</tag>
 <description>love.window.getTitle()</description>
-<text><![CDATA[love.window.getTitle()
-$0]]></text>
+<text><![CDATA[love.window.getTitle()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>_getwidth</tag>
 <description>love.window.getWidth()</description>
-<text><![CDATA[love.window.getWidth()
-$0]]></text>
+<text><![CDATA[love.window.getWidth()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>hasfocus</tag>
 <description>love.window.hasFocus()</description>
-<text><![CDATA[love.window.hasFocus()
-$0]]></text>
+<text><![CDATA[love.window.hasFocus()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>hasmousefocus</tag>
 <description>love.window.hasMouseFocus()</description>
-<text><![CDATA[love.window.hasMouseFocus()
-$0]]></text>
+<text><![CDATA[love.window.hasMouseFocus()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>iscreated</tag>
 <description>love.window.isCreated()</description>
-<text><![CDATA[love.window.isCreated()
-$0]]></text>
+<text><![CDATA[love.window.isCreated()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>_isvisible</tag>
 <description>love.window.isVisible()</description>
-<text><![CDATA[love.window.isVisible()
-$0]]></text>
+<text><![CDATA[love.window.isVisible()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setfullscreen</tag>
 <description>love.window.setFullscreen(fullscreen)</description>
-<text><![CDATA[love.window.setFullscreen(fullscreen)
-$0]]></text>
+<text><![CDATA[love.window.setFullscreen(fullscreen)$0]]></text>
 </snippet>
 
 <snippet>
 <tag>seticon</tag>
 <description>love.window.setIcon(imageData)</description>
-<text><![CDATA[love.window.setIcon(${1:imageData})
-$0]]></text>
+<text><![CDATA[love.window.setIcon(${1:imageData})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setmode</tag>
 <description>love.window.setMode(width, height, flags)</description>
-<text><![CDATA[love.window.setMode(${1:width}, ${2:height}, ${3:flags})
-$0]]></text>
+<text><![CDATA[love.window.setMode(${1:width}, ${2:height}, ${3:flags})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>settitle</tag>
 <description>love.window.setTitle(title)</description>
-<text><![CDATA[love.window.setTitle(${1:title})
-$0]]></text>
+<text><![CDATA[love.window.setTitle(${1:title})$0]]></text>
 </snippet>
 
   <snippet>
