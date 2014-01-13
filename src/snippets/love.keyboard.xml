@@ -11,7 +11,7 @@
 </snippet>
 
 <snippet>
-<tag>_isdown</tag>
+<tag>isdown</tag>
 <description>love.keyboard.isDown(key)</description>
 <text><![CDATA[love.keyboard.isDown(${1:key})$0]]></text>
 </snippet>

@@ -5,7 +5,7 @@
 </snippet>
 
 <snippet>
-<tag>_getdimensions</tag>
+<tag>getdimensions</tag>
 <description>love.window.getDimensions()</description>
 <text><![CDATA[love.window.getDimensions()$0]]></text>
 </snippet>
@@ -23,7 +23,7 @@
 </snippet>
 
 <snippet>
-<tag>_getheight</tag>
+<tag>getheight</tag>
 <description>love.window.getHeight()</description>
 <text><![CDATA[love.window.getHeight()$0]]></text>
 </snippet>
@@ -47,7 +47,7 @@
 </snippet>
 
 <snippet>
-<tag>_getwidth</tag>
+<tag>getwidth</tag>
 <description>love.window.getWidth()</description>
 <text><![CDATA[love.window.getWidth()$0]]></text>
 </snippet>
@@ -71,7 +71,7 @@
 </snippet>
 
 <snippet>
-<tag>_isvisible</tag>
+<tag>isvisible</tag>
 <description>love.window.isVisible()</description>
 <text><![CDATA[love.window.isVisible()$0]]></text>
 </snippet>

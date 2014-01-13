@@ -1,5 +1,5 @@
 <snippet>
-<tag>_conf</tag> 
+<tag>conf</tag> 
 <description>function love.conf(t)</description>
 <text><![CDATA[function love.conf(t)
     t.version = "${1:0.9.0}"
@@ -11,7 +11,7 @@ $0]]></text>
 </snippet>
 
 <snippet>
-<tag>_update</tag> 
+<tag>update</tag> 
 <description>function love.update(dt)</description>
 <text><![CDATA[function love.update(dt)
 	$0
@@ -19,7 +19,7 @@ end]]></text>
 </snippet>
 
 <snippet>
-<tag>_load</tag> 
+<tag>load</tag> 
 <description>function love.load()</description>
 <text><![CDATA[function love.load()
 	$0
@@ -28,7 +28,7 @@ end]]></text>
 
 
 <snippet>
-<tag>_draw</tag> 
+<tag>draw</tag> 
 <description>function love.draw()</description>
 <text><![CDATA[function love.draw()
 	$0
@@ -36,7 +36,7 @@ end]]></text>
 </snippet>
 
 <snippet>
-<tag>_errhand</tag> 
+<tag>errhand</tag> 
 <description>function love.errhand(msg)</description>
 <text><![CDATA[function love.errhand(msg)
 	$0
@@ -45,7 +45,7 @@ end]]></text>
 
 
 <snippet>
-<tag>_focus</tag> 
+<tag>focus</tag> 
 <description>function love.focus(f)</description>
 <text><![CDATA[function love.focus(f)
 	$0
@@ -53,14 +53,14 @@ end]]></text>
 </snippet>
 
 <snippet>
-<tag>_keypressed</tag>
+<tag>keypressed</tag>
 <description>function love.keypressed(key)</description>
 <text><![CDATA[function love.keypressed(key)
 	$0
 end]]></text>
 </snippet>
 <snippet>
-<tag>_keypressedr</tag>
+<tag>keypressedr</tag>
 <description>function love.keypressed(key, isrepeat)</description>
 <text><![CDATA[function love.keypressed(key, isrepeat)
 	$0
@@ -69,7 +69,7 @@ end]]></text>
 
 
 <snippet>
-<tag>_keyreleased</tag> 
+<tag>keyreleased</tag> 
 <description>function love.keyreleased(key)</description>
 <text><![CDATA[function love.keyreleased(key)
 	$0
@@ -77,7 +77,7 @@ end]]></text>
 </snippet>
 
 <snippet>
-<tag>_mousefocus</tag>
+<tag>mousefocus</tag>
 <description>function love.mousefocus(f)</description>
 <text><![CDATA[function love.mousefocus(f)
 	$0
@@ -85,7 +85,7 @@ end]]></text>
 </snippet>
 
 <snippet>
-<tag>_mousereleased</tag> 
+<tag>mousereleased</tag> 
 <description>function love.mousereleased(x, y, button)</description>
 <text><![CDATA[function love.mousereleased(x, y, button)
 	$0
@@ -93,7 +93,7 @@ end]]></text>
 </snippet>
 
 <snippet>
-<tag>_mousepressed</tag> 
+<tag>mousepressed</tag> 
 <description>function love.mousepressed(x, y, button)</description>
 <text><![CDATA[function love.mousepressed(x, y, button)
 	$0
@@ -101,7 +101,7 @@ end]]></text>
 </snippet>
 
 <snippet>
-<tag>_quit</tag>
+<tag>quit</tag>
 <description>love.quit()</description>
 <text><![CDATA[function love.quit()
 	$0
@@ -109,7 +109,7 @@ end]]></text>
 </snippet>
 
 <snippet>
-<tag>_resize</tag>
+<tag>resize</tag>
 <description>love.resize(w, h)</description>
 <text><![CDATA[function love.resize(w, h)
 	$0
@@ -117,7 +117,7 @@ end]]></text>
 </snippet>
 
 <snippet>
-<tag>_run</tag>
+<tag>run</tag>
 <description>love.run()</description>
 <text><![CDATA[function love.run()
 	$0
@@ -125,7 +125,7 @@ end]]></text>
 </snippet>
 
 <snippet>
-<tag>_textinput</tag>
+<tag>textinput</tag>
 <description>love.textinput(text)</description>
 <text><![CDATA[function love.textinput(text)
 	$0
@@ -133,7 +133,7 @@ end]]></text>
 </snippet>
 
 <snippet>
-<tag>_threaderror</tag>
+<tag>threaderror</tag>
 <description>love.threaderror(thread, errorstr)</description>
 <text><![CDATA[love.threaderror(thread, errorstr)
 	$0
@@ -141,7 +141,7 @@ end]]></text>
 </snippet>
 
 <snippet>
-<tag>_visible</tag>
+<tag>visible</tag>
 <description>love.visible(v)</description>
 <text><![CDATA[love.visible(v)
 	$0
