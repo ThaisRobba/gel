@@ -21,7 +21,7 @@ An advanced LÖVE snippet system along with syntax highlighting & custom command
         
 - Helpful definitions that you can tab through when using snippets
 
-		nquad + tab >> love.graphics.newQuad(x, y, width, height, width_of_the_image, height_of_the_image)
+		newquad + tab >> love.graphics.newQuad(x, y, width, height, width_of_the_image, height_of_the_image)
         
 - View all of LÖVE's possible commands with:
 
