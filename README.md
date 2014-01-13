@@ -1,4 +1,4 @@
-GËL
+GËL v0.3b - 2014-13-01
 ===
 
 An advanced LÖVE snippet system along with syntax highlighting & custom commands for Gedit.
@@ -110,10 +110,9 @@ This uses the most obvious word from a command. For example:
 		point + tab 				>> love.graphics.point(x, y)
 		print + tab 				>> love.graphics.print(text, x, y, ...)
 		newparticlesystem + tab		>> love.graphics.newParticleSystem(image, buffer)
-		_draw	+ tab				>> function love.draw() end
 		
 As you can see, this makes it a little easier and a little faster to code.
-You might be wondering what is the 'n' in the particlesystem command or why is there an ellipsis in the print output. Read on below.
+You might be wondering why there is an ellipsis in the print output. Read on below.
 
 
 ###Why the ellipsis on that function over there?
@@ -125,30 +124,17 @@ Some functions accept many different arguments but, usually, only a few are used
 		"overkill is underrated.":
 		love.graphics.print(text, x, y, r, sx, sy, ox, oy, kx, ky)
 
-###Ok what about the sneaky underscore?
-Think of the underscore as a way to output the alternative command and the love.* callbacks. Why the alternative, you ask? Simply due to the fact that some callbacks end up with the same name.
+###Ok, I inputted something I know is right but it didn't work!
+There are some conflicts in the names used. For example:
 
-This means:
+		draw 		>> function love.draw() end
+		draw		>> love.graphics.draw()
 
-		_draw 		>> function love.draw() end
-        draw		>> love.graphics.draw()
-		_errhand 	>> function love.errhand(msg) end
-		_focus 		>> function love.focus(f) end
+If you try to tab when using the example above, it just won't tab at all.
+Pressing Ctrl+Spacebar shows the possible options for the current snippet.
+Select one (arrow keys) and press tab or enter.
 
-And so on, and so forth. Visit http://www.love2d.org/wiki/love for the list of callbacks.
-
-###List of other exceptions
-The one that displays by default is the one on the left:
-
-		love.graphics.clear X love.event.clear
-		love.graphics.getDimensions X love.window.getDimensions
-		love.graphics.getHeight X love.window.getHeight 
-		love.graphics.getWidth X love.window.getWidth
-		love.graphics.push X love.event.push
-		love.mouse.getPosition X love.audio.getPosition 
-		love.mouse.setPosition X love.audio.setPosition 
-		love.mouse.isDown X love.keyboard.isDown
-		love.mouse.isVisible X love.window.isVisible
+You can also use Ctrl+Spacebar when you have inputted only part of the name. This means that typing only 'd' and using Ctrl+Spacebar will show all snippets that start with 'd'.
 
 ###Encapsulating
 Having the code selected, use one of the following shortcuts:
