@@ -1,29 +1,29 @@
 <snippet>
 <tag>haskeyrepeat</tag>
-<description>love.image.hasKeyRepeat()</description>
-<text><![CDATA[love.image.hasKeyRepeat()$0]]></text>
+<description>love.keyboard.hasKeyRepeat()</description>
+<text><![CDATA[love.keyboard.hasKeyRepeat()$0]]></text>
 </snippet>
 
 <snippet>
 <tag>hastextinput</tag>
-<description>love.image.hasTextInput()</description>
-<text><![CDATA[love.image.hasTextInput()$0]]></text>
+<description>love.keyboard.hasTextInput()</description>
+<text><![CDATA[love.keyboard.hasTextInput()$0]]></text>
 </snippet>
 
 <snippet>
-<tag>isdown</tag>
-<description>love.image.isDown(key)</description>
-<text><![CDATA[love.image.isDown(${1:key})$0]]></text>
+<tag>_isdown</tag>
+<description>love.keyboard.isDown(key)</description>
+<text><![CDATA[love.keyboard.isDown(${1:key})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>setkeyrepeat</tag>
-<description>love.image.seyKeyRepeat(enable)</description>
-<text><![CDATA[love.image.setKeyRepeat(${1:enable})$0]]></text>
+<description>love.keyboard.seyKeyRepeat(enable)</description>
+<text><![CDATA[love.keyboard.setKeyRepeat(${1:enable})$0]]></text>
 </snippet>
 
 <snippet>
 <tag>settextinput</tag>
-<description>love.image.setTextInput(enable)</description>
-<text><![CDATA[love.image.setTextInput(${1:enable})$0]]></text>
+<description>love.keyboard.setTextInput(enable)</description>
+<text><![CDATA[love.keyboard.setTextInput(${1:enable})$0]]></text>
 </snippet>
