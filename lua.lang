@@ -34,6 +34,7 @@
     <style id="comment" _name="Comment" map-to="def:comment"/>
     <style id="string" _name="String" map-to="def:string"/>
     <style id="keyword" _name="Keyword" map-to="def:keyword"/>
+    <style id="decimal" _name="Decimal" map-to="def:decimal"/>
     <style id="escape" _name="Escaped Character" map-to="def:special-char"/>
     <style id="reserved" _name="Reserved Identifier" map-to="def:keyword"/>
     <style id="function" _name="Function" map-to="def:function"/>
@@ -44,6 +45,10 @@
   <definitions>
     <context id="lua-escape" style-ref="escape">
       <match>\\(\d\d?\d?|.)</match>
+    </context>
+
+    <context id="number" style-ref="decimal">
+      <match>\b(0|[\+-]?[1-9][0-9]*)</match>
     </context>
 
     <context id="string" style-ref="string" end-at-line-end="true" class="string" class-disabled="no-spell-check">
@@ -328,7 +333,7 @@
       <keyword>love.audio.setVelocity</keyword>
       <keyword>love.audio.setVolume</keyword>
       <keyword>love.audio.stop</keyword>
-		<keyword>love.draw</keyword>
+      <keyword>love.draw</keyword>
       <keyword>love.errhand</keyword>
       <keyword>love.event.clear</keyword>
       <keyword>love.event.poll</keyword>
@@ -660,7 +665,6 @@
       <keyword>update</keyword>
       <keyword>wait</keyword>
       <keyword>write</keyword>
-
     </context>
 
     <context id="lua-reserved" style-ref="reserved">
@@ -681,6 +685,7 @@
         <context ref="def:shebang"/>
         <context ref="multi-line-string"/>
         <context ref="string"/>
+        <context ref="number"/>
         <context ref="block-comment"/>
         <context ref="line-comment"/>
         <context ref="keywords"/>
