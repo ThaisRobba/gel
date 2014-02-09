@@ -696,6 +696,6 @@
         <context ref="boolean"/>
       </include>
     </context>
-
+    
   </definitions>
 </language>
