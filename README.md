@@ -4,7 +4,7 @@ GËL v0.3b - 2014-13-01
 An advanced LÖVE snippet system along with syntax highlighting & custom commands for Gedit.
 
 
-
+orqoedwsWEDWED
 ##What can it do?
 
 - Add brackets around selected code
